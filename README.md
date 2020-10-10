@@ -175,7 +175,7 @@ We have bundled the entire set of JS2 widgets, themes, and assets in the Wisej.W
 
 ## Update
 
-The Syncfusion assets are located in /JavaScript using the same directory structure used in the installation zip you receive from Syncfusion when you purchase the license. To update the version of the JS2 library, simply copy the files over and recompile the project.
+The Syncfusion assets are located in Syncfusion\ej2 using the same directory structure used in the installation zip you receive from Syncfusion when you purchase the license. To update the version of the JS2 library, simply copy the files over and recompile the project.
 
 
 
