@@ -5,7 +5,7 @@ Essential JS 2 is a modern JavaScript UI Controls library that has been built fr
 ## Concept
 For the premium Syncfusion, DevExtreme, and Telerik KendoUI integration packages we have used an approach different from the other integrations we publish on the open Wisej repositories. In this case we wanted to use all the features that are available to javascript, angular, react, blazor developers instead of trying to build a limited .NET object hierarchy.
 
-When you look at the code, you will find a common base class **ej2Base** for all the widgets classes. Overloaded constructors that indicate which ej1 class to use, and a number of initialization options that may be different for some widgets.
+When you look at the code, you will find a common base class **ej2Base** for all the widgets classes. Overloaded constructors that indicate which ej2 class to use, and a number of initialization options that may be different for some widgets.
 
 The ej2Base class uses a custom **wisej.web.ext.Syncfusion2** implementation that takes care of the creation and registration of events, methods, and templates. It also provides some simple methods to override in each derived class.
 
