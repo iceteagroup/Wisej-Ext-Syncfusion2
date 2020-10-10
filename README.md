@@ -76,16 +76,16 @@ Note: When using VB.NET you need to use *Option Strict Off* to allow the .NET dy
 
 ~~~
 // C#
-this.ejSpreadsheet1.Instance.setReadOnly("B3");
+this.spreadsheet1.Instance.setReadOnly("B3");
 
 ' VB.NET
-Me.EjSpreadsheet1.Instance.setReadOnly("B3")
+Me.spreadsheet1.Instance.setReadOnly("B3")
 ~~~
 
 However, some methods may return values that are not immediately usable in .NET, or you need to use several methods together in a single javascript function in a way that wouldn't make sense from the server. When you need to add a method to your ej2 widget instance, or your derived class, use the **WidgetFunctions** property in the designer (can be used at runtime as well) to register a new javascript function.
 
 ~~~
-this.ejRichTextEditor1.WidgetFunctions = new []{
+this.richTextEditor1.WidgetFunctions = new []{
 
   new WidgetFunction()  {
     Name = "addMenuOption",
