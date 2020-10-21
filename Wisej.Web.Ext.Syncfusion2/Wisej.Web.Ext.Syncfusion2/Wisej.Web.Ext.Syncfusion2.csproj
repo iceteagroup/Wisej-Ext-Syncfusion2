@@ -121,17 +121,6 @@
       <DependentUpon>LinearGauge.cs</DependentUpon>
     </EmbeddedResource>
     <Content Include="ejSyncfusion.bmp" />
-    <Content Include="Libs\Newtonsoft.Json.dll" />
-    <Content Include="Libs\Syncfusion.Compression.Base.dll" />
-    <Content Include="Libs\Syncfusion.DocIO.Base.dll" />
-    <Content Include="Libs\Syncfusion.EJ.dll" />
-    <Content Include="Libs\Syncfusion.EJ.Export.dll" />
-    <Content Include="Libs\Syncfusion.EJ.PdfViewer.dll" />
-    <Content Include="Libs\Syncfusion.Licensing.dll" />
-    <Content Include="Libs\Syncfusion.OfficeChart.Base.dll" />
-    <Content Include="Libs\Syncfusion.Pdf.Base.dll" />
-    <Content Include="Libs\Syncfusion.XlsIO.Base.dll" />
-    <Content Include="Libs\Wisej.Ext.MaterialDesign.dll" />
     <EmbeddedResource Include="Syncfusion\ej2\bootstrap-dark.css" />
     <EmbeddedResource Include="Syncfusion\ej2\bootstrap.css" />
     <EmbeddedResource Include="Syncfusion\ej2\bootstrap4.css" />
