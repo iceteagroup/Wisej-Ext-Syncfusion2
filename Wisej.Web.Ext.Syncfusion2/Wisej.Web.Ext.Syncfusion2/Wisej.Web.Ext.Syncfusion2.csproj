@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B07F9274-45DD-4246-94EE-19E7DE6C0279}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Wisej.Web.Ext.Syncfusion2</RootNamespace>
+    <AssemblyName>Wisej.Web.Ext.Syncfusion2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Wisej.Web.Ext.Syncfusion2.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\Wisej.Web.Ext.Syncfusion2.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="Wisej.Framework">
+      <HintPath>..\..\..\..\..\Development\2.2\bin\Wisej.Framework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ej2Base.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AccumulationChart.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BulletChart.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Calendar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Chart.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CircularGauge.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ColorPicker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DatePicker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Template.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Spreadsheet.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PivotView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Grid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LinearGauge.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AccumulationChart.js">
+      <DependentUpon>AccumulationChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BulletChart.js">
+      <DependentUpon>BulletChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calendar.js">
+      <DependentUpon>Calendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chart.js">
+      <DependentUpon>Chart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CircularGauge.js">
+      <DependentUpon>CircularGauge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ColorPicker.js">
+      <DependentUpon>ColorPicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatePicker.js">
+      <DependentUpon>DatePicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PivotView.js">
+      <DependentUpon>PivotView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Spreadsheet.js">
+      <DependentUpon>Spreadsheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Syncfusion\external\polyfill.min.js" />
+    <EmbeddedResource Include="Grid.js">
+      <DependentUpon>Grid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LinearGauge.js">
+      <DependentUpon>LinearGauge.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="ejSyncfusion.bmp" />
+    <Content Include="Libs\Newtonsoft.Json.dll" />
+    <Content Include="Libs\Syncfusion.Compression.Base.dll" />
+    <Content Include="Libs\Syncfusion.DocIO.Base.dll" />
+    <Content Include="Libs\Syncfusion.EJ.dll" />
+    <Content Include="Libs\Syncfusion.EJ.Export.dll" />
+    <Content Include="Libs\Syncfusion.EJ.PdfViewer.dll" />
+    <Content Include="Libs\Syncfusion.Licensing.dll" />
+    <Content Include="Libs\Syncfusion.OfficeChart.Base.dll" />
+    <Content Include="Libs\Syncfusion.Pdf.Base.dll" />
+    <Content Include="Libs\Syncfusion.XlsIO.Base.dll" />
+    <Content Include="Libs\Wisej.Ext.MaterialDesign.dll" />
+    <EmbeddedResource Include="Syncfusion\ej2\bootstrap-dark.css" />
+    <EmbeddedResource Include="Syncfusion\ej2\bootstrap.css" />
+    <EmbeddedResource Include="Syncfusion\ej2\bootstrap4.css" />
+    <EmbeddedResource Include="Syncfusion\ej2\dist\ej2.min.js" />
+    <Content Include="Syncfusion\ej2\fabric-dark.css" />
+    <Content Include="Syncfusion\ej2\fabric.css" />
+    <EmbeddedResource Include="Syncfusion\ej2\highcontrast.css" />
+    <EmbeddedResource Include="Syncfusion\ej2\material-dark.css" />
+    <EmbeddedResource Include="Syncfusion\ej2\material.css" />
+    <EmbeddedResource Include="Platform\wisej.web.ext.Syncfusion2Widget.js" />
+    <EmbeddedResource Include="Template.js">
+      <DependentUpon>Template.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="extension.snk" />
+    <None Include="itg.licenseheader" />
+    <EmbeddedResource Include="Syncfusion\ej2\dist\ej2.min.js.map" />
+    <None Include="Syncfusion\ej2\license" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>mkdir "$(ProjectDir)..\..\bin"
+copy "$(TargetPath)" "$(ProjectDir)..\..\bin\" /y
+copy "$(TargetDir)$(TargetName).xml" "$(ProjectDir)..\..\bin\" /y</PostBuildEvent>
+  </PropertyGroup>
+</Project>

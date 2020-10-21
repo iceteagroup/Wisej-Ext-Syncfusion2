@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wisej.Web.Ext.Syncfusion2", "Wisej.Web.Ext.Syncfusion2\Wisej.Web.Ext.Syncfusion2.csproj", "{B07F9274-45DD-4246-94EE-19E7DE6C0279}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B07F9274-45DD-4246-94EE-19E7DE6C0279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B07F9274-45DD-4246-94EE-19E7DE6C0279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B07F9274-45DD-4246-94EE-19E7DE6C0279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B07F9274-45DD-4246-94EE-19E7DE6C0279}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C8C307D-8AC4-4700-86B6-2244141350EA}
+	EndGlobalSection
+EndGlobal
