@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="accumulationChart1.Options" xml:space="preserve">
+    <value>{"series":[{"dataSource":[{"x":"Jan","y":3},{"x":"Feb","y":3.5},{"x":"Mar","y":7},{"x":"Apr","y":13.5},{"x":"May","y":19},{"x":"Jun","y":23.5},{"x":"Jul","y":26},{"x":"Aug","y":25},{"x":"Sep","y":21},{"x":"Oct","y":15}],"xName":"x","yName":"y"}]}</value>
+  </data>
   <metadata name="$this.RulerSnapLines" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0

@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="chart1.Options" xml:space="preserve">
+    <value>{"primaryXAxis":{"valueType":"Category"},"primaryYAxis":{"labelFormat":"${value}K"},"series":[{"dataSource":[{"month":"Jan","sales":35},{"month":"Feb","sales":28},{"month":"Mar","sales":34},{"month":"Apr","sales":32},{"month":"May","sales":40},{"month":"Jun","sales":32},{"month":"Jul","sales":35},{"month":"Aug","sales":55},{"month":"Sep","sales":38},{"month":"Oct","sales":30},{"month":"Nov","sales":25},{"month":"Dec","sales":32}],"xName":"month","name":"Sales","yName":"sales","type":"Line","marker":{"dataLabel":{"visible":true}}}],"legendSettings":{"visible":true},"title":"Sales Analysis"}</value>
+  </data>
   <metadata name="$this.RulerSnapLines" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0

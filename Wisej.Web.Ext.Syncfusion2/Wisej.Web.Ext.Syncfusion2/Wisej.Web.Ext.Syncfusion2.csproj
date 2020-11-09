@@ -68,7 +68,112 @@
     <Compile Include="DatePicker.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Template.cs">
+    <Compile Include="ChipList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="InPlaceEditor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DateRangePicker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DateTimePicker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Diagram.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DocumentEditor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DropDownList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DropDownTree.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FileManager.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Gantt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HeatMap.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Kanban.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Maps.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MultiSelect.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PDFViewer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProgressButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="QueryBuilder.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RangeNavigator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Slider.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RichTextEditor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Schedule.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Sidebar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SmithChart.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Sparkline.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SplitButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StockChart.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Uploader.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TreeMap.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TreeGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Toolbar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TimePicker.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Spreadsheet.cs">
@@ -86,6 +191,96 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="ChipList.js">
+      <DependentUpon>ChipList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DateRangePicker.js">
+      <DependentUpon>DateRangePicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DateTimePicker.js">
+      <DependentUpon>DateTimePicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Diagram.js">
+      <DependentUpon>Diagram.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocumentEditor.js">
+      <DependentUpon>DocumentEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DropDownList.js">
+      <DependentUpon>DropDownList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DropDownTree.js">
+      <DependentUpon>DropDownTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileManager.js">
+      <DependentUpon>FileManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gantt.js">
+      <DependentUpon>Gantt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeatMap.js">
+      <DependentUpon>HeatMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InPlaceEditor.js">
+      <DependentUpon>InPlaceEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kanban.js">
+      <DependentUpon>Kanban.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListBox.js">
+      <DependentUpon>ListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListView.js">
+      <DependentUpon>ListView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maps.js">
+      <DependentUpon>Maps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.js">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MultiSelect.js">
+      <DependentUpon>MultiSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PDFViewer.js">
+      <DependentUpon>PDFViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressBar.js">
+      <DependentUpon>ProgressBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressButton.js">
+      <DependentUpon>ProgressButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueryBuilder.js">
+      <DependentUpon>QueryBuilder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RangeNavigator.js">
+      <DependentUpon>RangeNavigator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RichTextEditor.js">
+      <DependentUpon>RichTextEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Schedule.js">
+      <DependentUpon>Schedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sidebar.js">
+      <DependentUpon>Sidebar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Slider.js">
+      <DependentUpon>Slider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmithChart.js">
+      <DependentUpon>SmithChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sparkline.js">
+      <DependentUpon>Sparkline.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplitButton.js">
+      <DependentUpon>SplitButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockChart.js">
+      <DependentUpon>StockChart.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AccumulationChart.js">
       <DependentUpon>AccumulationChart.cs</DependentUpon>
     </EmbeddedResource>
@@ -131,8 +326,23 @@
     <EmbeddedResource Include="Syncfusion\ej2\material-dark.css" />
     <EmbeddedResource Include="Syncfusion\ej2\material.css" />
     <EmbeddedResource Include="Platform\wisej.web.ext.Syncfusion2Widget.js" />
-    <EmbeddedResource Include="Template.js">
-      <DependentUpon>Template.cs</DependentUpon>
+    <EmbeddedResource Include="TimePicker.js">
+      <DependentUpon>TimePicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Toolbar.js">
+      <DependentUpon>Toolbar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TreeGrid.js">
+      <DependentUpon>TreeGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TreeMap.js">
+      <DependentUpon>TreeMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TreeView.js">
+      <DependentUpon>TreeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uploader.js">
+      <DependentUpon>Uploader.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

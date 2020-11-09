@@ -46,6 +46,12 @@
     <Content Include="Default.html" />
     <Content Include="Default.json" />
     <Content Include="favicon.ico" />
+    <Content Include="Data\Wisej.pdf" />
+    <Content Include="Data\Maps\WorldMap_Countries.json" />
+    <Content Include="Data\Maps\North America.json" />
+    <Content Include="Data\Maps\Europe.json" />
+    <Content Include="Data\DocumentEditor\W2W.docx" />
+    <Content Include="Data\DocumentEditor\abcd.docx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -83,6 +89,12 @@
     <Compile Include="Component\Chart.Designer.cs">
       <DependentUpon>Chart.cs</DependentUpon>
     </Compile>
+    <Compile Include="Component\ChipList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ChipList.Designer.cs">
+      <DependentUpon>ChipList.cs</DependentUpon>
+    </Compile>
     <Compile Include="Component\CircularGauge.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -101,11 +113,71 @@
     <Compile Include="Component\DatePicker.Designer.cs">
       <DependentUpon>DatePicker.cs</DependentUpon>
     </Compile>
+    <Compile Include="Component\DateRangePicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\DateRangePicker.Designer.cs">
+      <DependentUpon>DateRangePicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\DateTimePicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\DateTimePicker.Designer.cs">
+      <DependentUpon>DateTimePicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\Diagram.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\Diagram.Designer.cs">
+      <DependentUpon>Diagram.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\DocumentEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\DocumentEditor.Designer.cs">
+      <DependentUpon>DocumentEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\DropDownList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\DropDownList.Designer.cs">
+      <DependentUpon>DropDownList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\DropDownTree.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\DropDownTree.Designer.cs">
+      <DependentUpon>DropDownTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\FileManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\FileManager.Designer.cs">
+      <DependentUpon>FileManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\Gantt.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\Gantt.Designer.cs">
+      <DependentUpon>Gantt.cs</DependentUpon>
+    </Compile>
     <Compile Include="Component\Grid.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Component\Grid.Designer.cs">
       <DependentUpon>Grid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\HeatMap.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\HeatMap.Designer.cs">
+      <DependentUpon>HeatMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\Kanban.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\Kanban.Designer.cs">
+      <DependentUpon>Kanban.cs</DependentUpon>
     </Compile>
     <Compile Include="Component\LinearGauge.cs">
       <SubType>UserControl</SubType>
@@ -113,11 +185,107 @@
     <Compile Include="Component\LinearGauge.Designer.cs">
       <DependentUpon>LinearGauge.cs</DependentUpon>
     </Compile>
+    <Compile Include="Component\ListBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ListBox.Designer.cs">
+      <DependentUpon>ListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ListView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ListView.Designer.cs">
+      <DependentUpon>ListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\Maps.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\Maps.Designer.cs">
+      <DependentUpon>Maps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\Menu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\MultiSelect.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\MultiSelect.Designer.cs">
+      <DependentUpon>MultiSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\PDFViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\PDFViewer.Designer.cs">
+      <DependentUpon>PDFViewer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Component\PivotView.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Component\PivotView.Designer.cs">
       <DependentUpon>PivotView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ProgressBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ProgressBar.Designer.cs">
+      <DependentUpon>ProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ProgressButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\ProgressButton.Designer.cs">
+      <DependentUpon>ProgressButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\QueryBuilder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\QueryBuilder.Designer.cs">
+      <DependentUpon>QueryBuilder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\RangeNavigator.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\RangeNavigator.Designer.cs">
+      <DependentUpon>RangeNavigator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\RichTextEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\RichTextEditor.Designer.cs">
+      <DependentUpon>RichTextEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\Schedule.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\Schedule.Designer.cs">
+      <DependentUpon>Schedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\Slider.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\Slider.Designer.cs">
+      <DependentUpon>Slider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\SmithChart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\SmithChart.Designer.cs">
+      <DependentUpon>SmithChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\Sparkline.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\Sparkline.Designer.cs">
+      <DependentUpon>Sparkline.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\SplitButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\SplitButton.Designer.cs">
+      <DependentUpon>SplitButton.cs</DependentUpon>
     </Compile>
     <Compile Include="Component\Spreadsheet.cs">
       <SubType>UserControl</SubType>
@@ -125,8 +293,50 @@
     <Compile Include="Component\Spreadsheet.Designer.cs">
       <DependentUpon>Spreadsheet.cs</DependentUpon>
     </Compile>
+    <Compile Include="Component\StockChart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\StockChart.Designer.cs">
+      <DependentUpon>StockChart.cs</DependentUpon>
+    </Compile>
     <Compile Include="Component\TestBase.cs">
       <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\TimePicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\TimePicker.Designer.cs">
+      <DependentUpon>TimePicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\Toolbar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\Toolbar.Designer.cs">
+      <DependentUpon>Toolbar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\TreeGrid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\TreeGrid.Designer.cs">
+      <DependentUpon>TreeGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\TreeMap.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\TreeMap.Designer.cs">
+      <DependentUpon>TreeMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\TreeView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\TreeView.Designer.cs">
+      <DependentUpon>TreeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\Uploader.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\Uploader.Designer.cs">
+      <DependentUpon>Uploader.cs</DependentUpon>
     </Compile>
     <Compile Include="MainView.cs">
       <SubType>Form</SubType>
@@ -142,6 +352,23 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libs\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Compression.Base, Version=14.1450.0.41, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libs\Syncfusion.Compression.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.DocIO.Base">
+      <HintPath>Libs\Syncfusion.DocIO.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.EJ2.DocumentEditor">
+      <HintPath>Libs\Syncfusion.EJ2.DocumentEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Licensing">
+      <HintPath>Libs\Syncfusion.Licensing.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Drawing" />
@@ -154,19 +381,26 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\Development\2.2\bin\Wisej.Framework.dll</HintPath>
     </Reference>
-    <Reference Include="Wisej.Web.Ext.Syncfusion2">
-      <HintPath>..\..\bin\Wisej.Web.Ext.Syncfusion2.dll</HintPath>
+    <Reference Include="Wisej.Web.Ext.Syncfusion2, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Wisej.Web.Ext.Syncfusion2\bin\Debug\Wisej.Web.Ext.Syncfusion2.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Component\AccumulationChart.resx">
       <DependentUpon>AccumulationChart.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Component\BulletChart.resx">
+      <DependentUpon>BulletChart.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Component\Calendar.resx">
       <DependentUpon>Calendar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Component\Chart.resx">
       <DependentUpon>Chart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ChipList.resx">
+      <DependentUpon>ChipList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Component\CircularGauge.resx">
       <DependentUpon>CircularGauge.cs</DependentUpon>
@@ -177,20 +411,119 @@
     <EmbeddedResource Include="Component\DatePicker.resx">
       <DependentUpon>DatePicker.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Component\DateRangePicker.resx">
+      <DependentUpon>DateRangePicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\DateTimePicker.resx">
+      <DependentUpon>DateTimePicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\Diagram.resx">
+      <DependentUpon>Diagram.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\DocumentEditor.resx">
+      <DependentUpon>DocumentEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\DropDownList.resx">
+      <DependentUpon>DropDownList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\DropDownTree.resx">
+      <DependentUpon>DropDownTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\FileManager.resx">
+      <DependentUpon>FileManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\Gantt.resx">
+      <DependentUpon>Gantt.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Component\Grid.resx">
       <DependentUpon>Grid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\HeatMap.resx">
+      <DependentUpon>HeatMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\Kanban.resx">
+      <DependentUpon>Kanban.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Component\LinearGauge.resx">
       <DependentUpon>LinearGauge.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Component\ListBox.resx">
+      <DependentUpon>ListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ListView.resx">
+      <DependentUpon>ListView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\Maps.resx">
+      <DependentUpon>Maps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\MultiSelect.resx">
+      <DependentUpon>MultiSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\PDFViewer.resx">
+      <DependentUpon>PDFViewer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Component\PivotView.resx">
       <DependentUpon>PivotView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ProgressBar.resx">
+      <DependentUpon>ProgressBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\ProgressButton.resx">
+      <DependentUpon>ProgressButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\QueryBuilder.resx">
+      <DependentUpon>QueryBuilder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\RangeNavigator.resx">
+      <DependentUpon>RangeNavigator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\RichTextEditor.resx">
+      <DependentUpon>RichTextEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\Schedule.resx">
+      <DependentUpon>Schedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\Slider.resx">
+      <DependentUpon>Slider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\SmithChart.resx">
+      <DependentUpon>SmithChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\Sparkline.resx">
+      <DependentUpon>Sparkline.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\SplitButton.resx">
+      <DependentUpon>SplitButton.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Component\Spreadsheet.resx">
       <DependentUpon>Spreadsheet.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Component\StockChart.resx">
+      <DependentUpon>StockChart.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Component\TestBase.resx">
       <DependentUpon>TestBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\TimePicker.resx">
+      <DependentUpon>TimePicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\Toolbar.resx">
+      <DependentUpon>Toolbar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\TreeGrid.resx">
+      <DependentUpon>TreeGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\TreeMap.resx">
+      <DependentUpon>TreeMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\TreeView.resx">
+      <DependentUpon>TreeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Component\Uploader.resx">
+      <DependentUpon>Uploader.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainView.resx">
       <DependentUpon>MainView.cs</DependentUpon>

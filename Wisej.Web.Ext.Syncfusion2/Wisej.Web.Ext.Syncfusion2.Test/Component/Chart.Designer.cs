@@ -28,6 +28,7 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Chart));
 			this.chart1 = new Wisej.Web.Ext.Syncfusion2.Chart();
 			this.groupBox1.SuspendLayout();
 			this.panel.SuspendLayout();
@@ -42,6 +43,7 @@
 			this.chart1.Dock = Wisej.Web.DockStyle.Fill;
 			this.chart1.Location = new System.Drawing.Point(8, 8);
 			this.chart1.Name = "chart1";
+			this.chart1.Options = ((Wisej.Core.DynamicObject)(Wisej.Core.WisejSerializer.Parse(resources.GetString("chart1.Options"))));
 			this.chart1.Size = new System.Drawing.Size(437, 297);
 			this.chart1.TabIndex = 0;
 			this.chart1.Text = "chart1";

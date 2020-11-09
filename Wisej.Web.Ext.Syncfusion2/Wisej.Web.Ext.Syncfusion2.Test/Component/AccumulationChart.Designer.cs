@@ -28,6 +28,7 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AccumulationChart));
 			this.accumulationChart1 = new Wisej.Web.Ext.Syncfusion2.AccumulationChart();
 			this.groupBox1.SuspendLayout();
 			this.panel.SuspendLayout();
@@ -42,6 +43,7 @@
 			this.accumulationChart1.Dock = Wisej.Web.DockStyle.Fill;
 			this.accumulationChart1.Location = new System.Drawing.Point(8, 8);
 			this.accumulationChart1.Name = "accumulationChart1";
+			this.accumulationChart1.Options = ((Wisej.Core.DynamicObject)(Wisej.Core.WisejSerializer.Parse(resources.GetString("accumulationChart1.Options"))));
 			this.accumulationChart1.Size = new System.Drawing.Size(437, 297);
 			this.accumulationChart1.TabIndex = 0;
 			this.accumulationChart1.Text = "accumulationChart1";

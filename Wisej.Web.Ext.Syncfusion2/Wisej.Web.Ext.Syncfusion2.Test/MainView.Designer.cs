@@ -155,12 +155,12 @@
 
 		#endregion
 
-		private Panel panel1;
-		private ListBox listBox1;
-		private Panel panel2;
-		private Panel panel3;
-		private Label label1;
-		private PictureBox pictureBox1;
-		private ComboBox comboBox1;
+		private Wisej.Web.Panel panel1;
+		private Wisej.Web.ListBox listBox1;
+		private Wisej.Web.Panel panel2;
+		private Wisej.Web.Panel panel3;
+		private Wisej.Web.Label label1;
+		private Wisej.Web.PictureBox pictureBox1;
+		private Wisej.Web.ComboBox comboBox1;
 	}
 }

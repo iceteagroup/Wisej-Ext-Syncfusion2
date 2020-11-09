@@ -36,7 +36,7 @@ namespace Wisej.Web.Ext.Syncfusion2
 		/// Constructs a new instance of the <see cref="ColorPicker"/> class.
 		/// </summary>
 		/// <param name="options">Initial set of options.</param>
-		public ColorPicker(object options) : base("ej.inputs.ColorPicker", options)
+		public ColorPicker(object options) : base("ej.inputs.ColorPicker", "<input width='100%' height='100%'>", options)
 		{
 			this.WiredEvents = new[] {
 				"beforeClose",

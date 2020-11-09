@@ -40,9 +40,10 @@
 			// colorPicker1
 			// 
 			this.colorPicker1.Anchor = Wisej.Web.AnchorStyles.None;
-			this.colorPicker1.Location = new System.Drawing.Point(200, 139);
+			this.colorPicker1.Location = new System.Drawing.Point(201, 139);
 			this.colorPicker1.Name = "colorPicker1";
-			this.colorPicker1.Size = new System.Drawing.Size(98, 35);
+			this.colorPicker1.Options = ((Wisej.Core.DynamicObject)(Wisej.Core.WisejSerializer.Parse("{\"width\":\"300px\"}")));
+			this.colorPicker1.Size = new System.Drawing.Size(51, 35);
 			this.colorPicker1.TabIndex = 0;
 			this.colorPicker1.Text = "colorPicker1";
 			// 

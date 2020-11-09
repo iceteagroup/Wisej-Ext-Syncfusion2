@@ -40,9 +40,9 @@
 			// datePicker1
 			// 
 			this.datePicker1.Anchor = Wisej.Web.AnchorStyles.None;
-			this.datePicker1.Location = new System.Drawing.Point(83, 138);
+			this.datePicker1.Location = new System.Drawing.Point(76, 139);
 			this.datePicker1.Name = "datePicker1";
-			this.datePicker1.Size = new System.Drawing.Size(287, 36);
+			this.datePicker1.Size = new System.Drawing.Size(300, 35);
 			this.datePicker1.TabIndex = 0;
 			this.datePicker1.Text = "datePicker1";
 			// 

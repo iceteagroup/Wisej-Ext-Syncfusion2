@@ -18,3 +18,16 @@
 // FROM ICE TEA GROUP LLC.
 //
 ///////////////////////////////////////////////////////////////////////////////
+
+/**
+ * Resizes the hosted widget to always fit our container.
+ */
+this.resizeWidget = function () {
+
+	var widget = this.widget;
+	if (widget) {
+
+		var bounds = this.getBounds();
+		widget.width = bounds.width - 2;
+	}
+}
