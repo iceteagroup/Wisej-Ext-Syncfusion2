@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="bulletChart1.Options" xml:space="preserve">
-    <value>{"dataSource":[{"value":100,"target":80},{"value":200,"target":180},{"value":300,"target":280},{"value":400,"target":380},{"value":500,"target":480}],"valueName":"value","targetName":"target","minimum":0,"maximum":300,"interval":50}</value>
+    <value>{"title":"Sales Rate","dataSource":[{"value":55,"target":75,"category":"Year 1"}],"animation":{"enable":false},"targetField":"target","ranges":[{"end":35},{"end":50},{"end":100}],"minimum":0,"maximum":100,"interval":20}</value>
   </data>
   <metadata name="$this.RulerSnapLines" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>

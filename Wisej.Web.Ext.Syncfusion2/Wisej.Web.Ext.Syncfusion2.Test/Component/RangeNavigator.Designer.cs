@@ -34,6 +34,15 @@
 			this.panel.SuspendLayout();
 			this.SuspendLayout();
 			// 
+			// linkDocs
+			// 
+			this.linkDocs.Text = "https://ej2.syncfusion.com/javascript/documentation/range-navigator/es5-getting-s" +
+    "tarted/";
+			// 
+			// linkAPI
+			// 
+			this.linkAPI.Text = "https://ej2.syncfusion.com/javascript/documentation/api/range-navigator";
+			// 
 			// panel
 			// 
 			this.panel.Controls.Add(this.rangeNavigator1);

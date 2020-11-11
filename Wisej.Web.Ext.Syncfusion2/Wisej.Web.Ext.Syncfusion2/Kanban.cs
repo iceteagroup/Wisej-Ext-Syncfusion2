@@ -39,7 +39,13 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public Kanban(object options) : base("ej.kanban.Kanban", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"cardClick",
+				"cardDoubleClick",
+				"dialogClose",
+				"dialogOpen",
+				"drag",
+				"dragStart",
+				"dragStop"
 			};
 		}
 	}

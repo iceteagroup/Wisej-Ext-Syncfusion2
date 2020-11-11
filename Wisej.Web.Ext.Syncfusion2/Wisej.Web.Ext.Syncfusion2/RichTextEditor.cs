@@ -40,7 +40,17 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public RichTextEditor(object options) : base("ej.richtexteditor.RichTextEditor", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"afterImageDelete",
+				"blur",
+				"change",
+				"focus",
+				"imageSelected",
+				"imageUploadFailed",
+				"imageUploadSuccess",
+				"imageUploading",
+				"quickToolbarClose",
+				"quickToolbarOpen",
+				"toolbarClick"
 			};
 		}
 	}

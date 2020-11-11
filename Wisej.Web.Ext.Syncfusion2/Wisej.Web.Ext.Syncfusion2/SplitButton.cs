@@ -39,7 +39,10 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public SplitButton(object options) : base("ej.splitbuttons.SplitButton", "<button>", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"click",
+				"close",
+				"open",
+				"select"
 			};
 		}
 	}

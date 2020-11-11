@@ -40,15 +40,15 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public CircularGauge(object options) : base("ej.circulargauge.CircularGauge", options)
 		{
 			this.WiredEvents = new[] {
-				"dragEnd",
+				"beforePrint",
 				"dragMove",
 				"dragStart",
+				"dragEnd",
 				"gaugeMouseDown",
 				"gaugeMouseLeave",
 				"gaugeMouseMove",
 				"gaugeMouseUp",
 				"radiusCalculate",
-				"resized"
 			};
 		}
 	}

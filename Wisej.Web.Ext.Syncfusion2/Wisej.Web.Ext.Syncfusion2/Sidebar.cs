@@ -39,7 +39,9 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public Sidebar(object options) : base("ej.navigations.Sidebar", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"change",
+				"close",
+				"open"
 			};
 		}
 	}

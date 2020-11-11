@@ -34,6 +34,15 @@
 			this.panel.SuspendLayout();
 			this.SuspendLayout();
 			// 
+			// linkDocs
+			// 
+			this.linkDocs.Text = "https://ej2.syncfusion.com/javascript/documentation/stock-chart/es5-getting-start" +
+    "ed/";
+			// 
+			// linkAPI
+			// 
+			this.linkAPI.Text = "https://ej2.syncfusion.com/javascript/documentation/api/stock-chart/";
+			// 
 			// panel
 			// 
 			this.panel.Controls.Add(this.stockChart1);

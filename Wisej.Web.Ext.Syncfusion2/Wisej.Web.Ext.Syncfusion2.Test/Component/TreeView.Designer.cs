@@ -34,6 +34,15 @@
 			this.panel.SuspendLayout();
 			this.SuspendLayout();
 			// 
+			// linkDocs
+			// 
+			this.linkDocs.Text = "https://ej2.syncfusion.com/javascript/documentation/treeview/es5-getting-started/" +
+    "";
+			// 
+			// linkAPI
+			// 
+			this.linkAPI.Text = "https://ej2.syncfusion.com/javascript/documentation/api/treeview/";
+			// 
 			// panel
 			// 
 			this.panel.Controls.Add(this.treeView1);

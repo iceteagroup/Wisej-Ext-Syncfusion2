@@ -39,7 +39,20 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public TreeGrid(object options) : base("ej.treegrid.TreeGrid", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"cellEdit",
+				"cellSave",
+				"cellSelected",
+				"checkboxChange",
+				"columnDrag",
+				"columnDrop",
+				"columnMenuOpen",
+				"columnMenuClick",
+				"contextMenuClick",
+				"contextMenuOpen",
+				"rowDrag",
+				"rowDrop",
+				"rowSelected",
+				"toolbarClick"
 			};
 		}
 	}

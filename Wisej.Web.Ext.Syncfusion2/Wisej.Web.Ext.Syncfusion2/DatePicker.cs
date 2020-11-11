@@ -39,7 +39,13 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public DatePicker(object options) : base("ej.calendars.DatePicker", "<input type='text'>", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"blur",
+				"change",
+				"cleared",
+				"close",
+				"focus",
+				"navigated",
+				"open"
 			};
 		}
 	}

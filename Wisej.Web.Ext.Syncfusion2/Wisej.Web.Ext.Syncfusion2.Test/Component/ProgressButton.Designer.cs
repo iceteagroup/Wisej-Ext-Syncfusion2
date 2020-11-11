@@ -33,6 +33,15 @@
 			this.panel.SuspendLayout();
 			this.SuspendLayout();
 			// 
+			// linkDocs
+			// 
+			this.linkDocs.Text = "https://ej2.syncfusion.com/javascript/documentation/progress-button/es5-getting-s" +
+    "tarted/";
+			// 
+			// linkAPI
+			// 
+			this.linkAPI.Text = "https://ej2.syncfusion.com/javascript/documentation/api/progress-button";
+			// 
 			// panel
 			// 
 			this.panel.Controls.Add(this.progressButton1);

@@ -39,7 +39,14 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public DropDownTree(object options) : base("ej.dropdowns.DropDownTree", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"blur",
+				"change",
+				"close",
+				"filtering",
+				"focus",
+				"keyPress",
+				"open",
+				"select"
 			};
 		}
 	}

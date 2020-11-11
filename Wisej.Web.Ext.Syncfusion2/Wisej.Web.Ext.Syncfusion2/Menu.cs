@@ -39,7 +39,9 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public Menu(object options) : base("ej.navigations.Menu", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"onClose",
+				"onOpen",
+				"select",
 			};
 		}
 	}

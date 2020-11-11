@@ -39,7 +39,9 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public InPlaceEditor(object options) : base("ej.inplaceeditor.InPlaceEditor", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"cancelClick",
+				"change",
+				"submitClick",
 			};
 		}
 	}

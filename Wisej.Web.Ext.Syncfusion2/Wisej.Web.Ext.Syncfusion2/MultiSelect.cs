@@ -39,7 +39,17 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public MultiSelect(object options) : base("ej.dropdowns.MultiSelect", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"blur",
+				"change",
+				"chipSelection",
+				"close",
+				"customValueSelection",
+				"filtering",
+				"focus",
+				"open",
+				"select",
+				"selectedAll",
+				"tagging"
 			};
 		}
 	}

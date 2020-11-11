@@ -39,7 +39,18 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public Schedule(object options) : base("ej.schedule.Schedule", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"cellClick",
+				"cellDoubleClick",
+				"drag",
+				"dragStart",
+				"dragStop",
+				"eventClick",
+				"hover",
+				"moreEventsClick",
+				"navigating",
+				"popupClose",
+				"popupOpen",
+				"select"
 			};
 		}
 	}

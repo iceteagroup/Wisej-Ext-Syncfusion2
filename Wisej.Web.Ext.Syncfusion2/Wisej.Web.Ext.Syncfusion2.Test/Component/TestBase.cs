@@ -48,7 +48,7 @@ namespace Wisej.Web.Ext.Syncfusion2.Test.Component
 			this.linkDocs.ImageSource = "resource.wx/Wisej.Ext.MaterialDesign/link-button.svg";
 			this.linkDocs.Location = new System.Drawing.Point(118, 25);
 			this.linkDocs.Name = "linkDocs";
-			this.linkDocs.Size = new System.Drawing.Size(456, 24);
+			this.linkDocs.Size = new System.Drawing.Size(704, 24);
 			this.linkDocs.TabIndex = 0;
 			this.linkDocs.Text = "https://ej2.syncfusion.com/javascript/documentation/";
 			this.linkDocs.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -65,7 +65,7 @@ namespace Wisej.Web.Ext.Syncfusion2.Test.Component
 			this.linkAPI.ImageSource = "resource.wx/Wisej.Ext.MaterialDesign/link-button.svg";
 			this.linkAPI.Location = new System.Drawing.Point(118, 55);
 			this.linkAPI.Name = "linkAPI";
-			this.linkAPI.Size = new System.Drawing.Size(456, 24);
+			this.linkAPI.Size = new System.Drawing.Size(704, 24);
 			this.linkAPI.TabIndex = 1;
 			this.linkAPI.Text = "https://ej2.syncfusion.com/documentation/api/";
 			this.linkAPI.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -78,7 +78,7 @@ namespace Wisej.Web.Ext.Syncfusion2.Test.Component
 			this.linkDemo.ImageSource = "resource.wx/Wisej.Ext.MaterialDesign/link-button.svg";
 			this.linkDemo.Location = new System.Drawing.Point(118, 85);
 			this.linkDemo.Name = "linkDemo";
-			this.linkDemo.Size = new System.Drawing.Size(456, 24);
+			this.linkDemo.Size = new System.Drawing.Size(704, 24);
 			this.linkDemo.TabIndex = 2;
 			this.linkDemo.Text = "https://ej2.syncfusion.com/demos/";
 			this.linkDemo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -131,7 +131,7 @@ namespace Wisej.Web.Ext.Syncfusion2.Test.Component
 			this.label2.AutoSize = true;
 			this.label2.Location = new System.Drawing.Point(60, 59);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(28, 15);
+			this.label2.Size = new System.Drawing.Size(29, 15);
 			this.label2.TabIndex = 6;
 			this.label2.Text = "API:";
 			this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -141,7 +141,7 @@ namespace Wisej.Web.Ext.Syncfusion2.Test.Component
 			this.label3.AutoSize = true;
 			this.label3.Location = new System.Drawing.Point(60, 89);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(46, 15);
+			this.label3.Size = new System.Drawing.Size(47, 15);
 			this.label3.TabIndex = 7;
 			this.label3.Text = "DEMO:";
 			this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;

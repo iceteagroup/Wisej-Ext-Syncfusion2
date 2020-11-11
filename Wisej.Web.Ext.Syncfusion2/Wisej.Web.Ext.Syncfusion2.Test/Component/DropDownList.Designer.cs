@@ -33,6 +33,15 @@
 			this.panel.SuspendLayout();
 			this.SuspendLayout();
 			// 
+			// linkDocs
+			// 
+			this.linkDocs.Text = "https://ej2.syncfusion.com/javascript/documentation/drop-down-list/es5-getting-st" +
+    "arted/";
+			// 
+			// linkAPI
+			// 
+			this.linkAPI.Text = "https://ej2.syncfusion.com/javascript/documentation/api/drop-down-list/";
+			// 
 			// panel
 			// 
 			this.panel.Controls.Add(this.dropDownList1);

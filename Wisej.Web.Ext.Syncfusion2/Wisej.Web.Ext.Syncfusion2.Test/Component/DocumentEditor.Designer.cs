@@ -33,6 +33,16 @@
 			this.panel.SuspendLayout();
 			this.SuspendLayout();
 			// 
+			// linkDocs
+			// 
+			this.linkDocs.Text = "https://ej2.syncfusion.com/javascript/documentation/document-editor/getting-start" +
+    "ed/";
+			// 
+			// linkAPI
+			// 
+			this.linkAPI.Text = "https://ej2.syncfusion.com/javascript/documentation/api/document-editor-container" +
+    "";
+			// 
 			// panel
 			// 
 			this.panel.Controls.Add(this.documentEditor1);

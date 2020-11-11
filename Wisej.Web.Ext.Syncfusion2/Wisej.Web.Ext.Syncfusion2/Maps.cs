@@ -39,7 +39,21 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public Maps(object options) : base("ej.maps.Maps", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"bubbleClick",
+				"bubbleMouseMove",
+				"click",
+				"doubleClick",
+				"itemHighlight",
+				"itemSelection",
+				"markerClick",
+				"markerClusterClick",
+				"markerClusterMouseMove",
+				"markerMouseMove",
+				"pan",
+				"rightClick",
+				"shapeHighlight",
+				"shapeSelected",
+				"zoom"
 			};
 		}
 	}

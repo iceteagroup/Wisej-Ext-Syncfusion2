@@ -39,7 +39,8 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public HeatMap(object options) : base("ej.heatmap.HeatMap", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"cellClick",
+				"cellSelected",
 			};
 		}
 	}

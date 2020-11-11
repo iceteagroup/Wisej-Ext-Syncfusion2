@@ -33,6 +33,15 @@
 			this.panel.SuspendLayout();
 			this.SuspendLayout();
 			// 
+			// linkDocs
+			// 
+			this.linkDocs.Text = "https://ej2.syncfusion.com/javascript/documentation/daterangepicker/es5-getting-s" +
+    "tarted/";
+			// 
+			// linkAPI
+			// 
+			this.linkAPI.Text = "https://ej2.syncfusion.com/javascript/documentation/api/daterangepicker/";
+			// 
 			// panel
 			// 
 			this.panel.Controls.Add(this.dateRangePicker1);

@@ -39,7 +39,7 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public Toolbar(object options) : base("ej.navigations.Toolbar", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"clicked"
 			};
 		}
 	}

@@ -39,7 +39,26 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public FileManager(object options) : base("ej.filemanager.FileManager", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"beforeDownload",
+				"beforeImageLoad",
+				"beforePopupClose",
+				"beforePopupOpen",
+				"beforeSend",
+				"failure",
+				"fileDragStart",
+				"fileDragStop",
+				"fileDragging",
+				"fileDropped",
+				"fileLoad",
+				"fileOpen",
+				"fileSelect",
+				"fileSelection",
+				"menuClick",
+				"menuOpen",
+				"popupClose",
+				"popupOpen",
+				"success",
+				"toolbarClick"
 			};
 		}
 	}

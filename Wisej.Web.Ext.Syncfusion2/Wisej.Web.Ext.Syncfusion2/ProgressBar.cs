@@ -39,7 +39,13 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public ProgressBar(object options) : base("ej.progressbar.ProgressBar", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"mouseClick",
+				"mouseDown",
+				"mouseLeave",
+				"mouseMove",
+				"mouseUp",
+				"progressCompleted",
+				"valueChanged"
 			};
 		}
 	}

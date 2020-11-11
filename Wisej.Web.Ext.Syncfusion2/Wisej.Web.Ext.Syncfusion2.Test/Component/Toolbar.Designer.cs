@@ -33,6 +33,14 @@
 			this.panel.SuspendLayout();
 			this.SuspendLayout();
 			// 
+			// linkDocs
+			// 
+			this.linkDocs.Text = "https://ej2.syncfusion.com/javascript/documentation/toolbar/getting-started/";
+			// 
+			// linkAPI
+			// 
+			this.linkAPI.Text = "https://ej2.syncfusion.com/javascript/documentation/api/toolbar/";
+			// 
 			// panel
 			// 
 			this.panel.Controls.Add(this.toolbar1);

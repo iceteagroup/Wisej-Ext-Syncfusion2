@@ -34,6 +34,15 @@
 			this.panel.SuspendLayout();
 			this.SuspendLayout();
 			// 
+			// linkDocs
+			// 
+			this.linkDocs.Text = "https://ej2.syncfusion.com/javascript/documentation/smithchart/es5-getting-starte" +
+    "d/";
+			// 
+			// linkAPI
+			// 
+			this.linkAPI.Text = "https://ej2.syncfusion.com/javascript/documentation/api/smithchart/";
+			// 
 			// panel
 			// 
 			this.panel.Controls.Add(this.smithChart1);

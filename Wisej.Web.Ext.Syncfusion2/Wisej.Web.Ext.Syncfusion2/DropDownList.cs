@@ -39,7 +39,13 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public DropDownList(object options) : base("ej.dropdowns.DropDownList", "<input width='100%' height='100%'>", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"blur",
+				"change",
+				"close",
+				"filtering",
+				"focus",
+				"open",
+				"select"
 			};
 		}
 	}

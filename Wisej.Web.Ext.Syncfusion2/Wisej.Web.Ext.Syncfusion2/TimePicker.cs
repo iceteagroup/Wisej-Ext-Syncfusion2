@@ -39,7 +39,12 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public TimePicker(object options) : base("ej.calendars.TimePicker", "<input width='100%' height='100%'>", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"blur",
+				"change",
+				"cleared",
+				"close",
+				"focus",
+				"open"
 			};
 		}
 	}

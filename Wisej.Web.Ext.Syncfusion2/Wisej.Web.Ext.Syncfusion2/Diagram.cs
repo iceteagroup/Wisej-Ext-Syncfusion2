@@ -39,7 +39,32 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public Diagram(object options) : base("ej.diagrams.Diagram", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"click",
+				"collectionChange",
+				"connectionChange",
+				"contextMenuClick",
+				"contextMenuOpen",
+				"dataLoaded",
+				"doubleClick",
+				"dragEnter",
+				"dragLeave",
+				"dragOver",
+				"drop",
+				"expandStateChange",
+				"historyChange",
+				"mouseEnter",
+				"mouseLeave",
+				"mouseOver",
+				"positionChange",
+				"propertyChange",
+				"rotateChange",
+				"scrollChange",
+				"segmentCollectionChange",
+				"selectionChange",
+				"sizeChange",
+				"sourcePointChange",
+				"targetPointChange",
+				"textEdit"
 			};
 		}
 	}

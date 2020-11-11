@@ -39,7 +39,10 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public ListBox(object options) : base("ej.dropdowns.ListBox", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"change",
+				"drag",
+				"drop",
+				"filtering"
 			};
 		}
 	}

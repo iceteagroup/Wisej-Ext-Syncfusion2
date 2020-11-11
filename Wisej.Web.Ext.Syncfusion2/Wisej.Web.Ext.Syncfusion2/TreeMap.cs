@@ -39,7 +39,14 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public TreeMap(object options) : base("ej.treemap.TreeMap", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"click",
+				"doubleClick",
+				"itemClick",
+				"itemHighlight",
+				"itemMove",
+				"itemSelected",
+				"mouseMove",
+				"rightClick"
 			};
 		}
 	}

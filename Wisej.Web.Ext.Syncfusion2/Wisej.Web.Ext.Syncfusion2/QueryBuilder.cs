@@ -39,7 +39,8 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public QueryBuilder(object options) : base("ej.querybuilder.QueryBuilder", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"change",
+				"ruleChange"
 			};
 		}
 	}

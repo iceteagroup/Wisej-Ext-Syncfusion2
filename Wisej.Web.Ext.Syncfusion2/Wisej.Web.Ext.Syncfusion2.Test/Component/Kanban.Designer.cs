@@ -34,6 +34,14 @@
 			this.panel.SuspendLayout();
 			this.SuspendLayout();
 			// 
+			// linkDocs
+			// 
+			this.linkDocs.Text = "https://ej2.syncfusion.com/javascript/documentation/kanban/getting-started/";
+			// 
+			// linkAPI
+			// 
+			this.linkAPI.Text = "https://ej2.syncfusion.com/javascript/documentation/api/kanban/";
+			// 
 			// panel
 			// 
 			this.panel.Controls.Add(this.kanban1);

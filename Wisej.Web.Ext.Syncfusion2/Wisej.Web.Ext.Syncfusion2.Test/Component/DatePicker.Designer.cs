@@ -33,6 +33,15 @@
 			this.panel.SuspendLayout();
 			this.SuspendLayout();
 			// 
+			// linkDocs
+			// 
+			this.linkDocs.Text = "https://ej2.syncfusion.com/javascript/documentation/datepicker/es5-getting-starte" +
+    "d/";
+			// 
+			// linkAPI
+			// 
+			this.linkAPI.Text = "https://ej2.syncfusion.com/javascript/documentation/api/datepicker/";
+			// 
 			// panel
 			// 
 			this.panel.Controls.Add(this.datePicker1);

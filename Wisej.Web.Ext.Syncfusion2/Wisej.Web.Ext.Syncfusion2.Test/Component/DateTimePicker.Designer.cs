@@ -33,6 +33,15 @@
 			this.panel.SuspendLayout();
 			this.SuspendLayout();
 			// 
+			// linkDocs
+			// 
+			this.linkDocs.Text = "https://ej2.syncfusion.com/javascript/documentation/datetimepicker/es5-getting-st" +
+    "arted/";
+			// 
+			// linkAPI
+			// 
+			this.linkAPI.Text = "https://ej2.syncfusion.com/javascript/documentation/api/datetimepicker/";
+			// 
 			// panel
 			// 
 			this.panel.Controls.Add(this.dateTimePicker1);

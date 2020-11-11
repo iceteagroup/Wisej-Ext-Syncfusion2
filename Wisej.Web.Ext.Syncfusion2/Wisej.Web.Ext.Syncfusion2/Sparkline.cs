@@ -39,7 +39,10 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public Sparkline(object options) : base("ej.charts.Sparkline", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"pointRegionMouseClick",
+				"pointRegionMouseMove",
+				"sparklineMouseClick",
+				"sparklineMouseMove"
 			};
 		}
 	}

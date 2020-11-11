@@ -39,7 +39,8 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public Slider(object options) : base("ej.inputs.Slider", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"change",
+				"changed"
 			};
 		}
 	}

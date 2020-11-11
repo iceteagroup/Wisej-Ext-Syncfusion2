@@ -35,6 +35,15 @@
 			((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
 			this.SuspendLayout();
 			// 
+			// linkDocs
+			// 
+			this.linkDocs.Text = "https://ej2.syncfusion.com/javascript/documentation/linear-gauge/es5-getting-star" +
+    "ted/";
+			// 
+			// linkAPI
+			// 
+			this.linkAPI.Text = "https://ej2.syncfusion.com/javascript/documentation/api/linear-gauge/";
+			// 
 			// groupBox1
 			// 
 			this.groupBox1.Controls.Add(this.numericUpDown1);

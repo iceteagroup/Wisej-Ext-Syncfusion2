@@ -39,7 +39,8 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public ChipList(object options) : base("ej.buttons.ChipList", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"click",
+				"delete"
 			};
 		}
 	}

@@ -39,7 +39,7 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public ListView(object options) : base("ej.lists.ListView", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"select"
 			};
 		}
 	}

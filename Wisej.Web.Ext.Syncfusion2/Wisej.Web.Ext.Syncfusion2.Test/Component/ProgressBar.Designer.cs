@@ -33,6 +33,15 @@
 			this.panel.SuspendLayout();
 			this.SuspendLayout();
 			// 
+			// linkDocs
+			// 
+			this.linkDocs.Text = "https://ej2.syncfusion.com/javascript/documentation/progress-bar/es5-getting-star" +
+    "ted/";
+			// 
+			// linkAPI
+			// 
+			this.linkAPI.Text = "https://ej2.syncfusion.com/javascript/documentation/api/progressbar";
+			// 
 			// panel
 			// 
 			this.panel.Controls.Add(this.progressBar1);
@@ -40,10 +49,10 @@
 			// progressBar1
 			// 
 			this.progressBar1.Anchor = ((Wisej.Web.AnchorStyles)((Wisej.Web.AnchorStyles.Left | Wisej.Web.AnchorStyles.Right)));
-			this.progressBar1.Location = new System.Drawing.Point(58, 106);
+			this.progressBar1.Location = new System.Drawing.Point(58, 143);
 			this.progressBar1.Name = "progressBar1";
 			this.progressBar1.Options = ((Wisej.Core.DynamicObject)(Wisej.Core.WisejSerializer.Parse("{\"value\":70,\"animation\":{\"enable\":true,\"duration\":2000,\"delay\":0}}")));
-			this.progressBar1.Size = new System.Drawing.Size(337, 100);
+			this.progressBar1.Size = new System.Drawing.Size(337, 26);
 			this.progressBar1.TabIndex = 0;
 			this.progressBar1.Text = "progressBar1";
 			// 

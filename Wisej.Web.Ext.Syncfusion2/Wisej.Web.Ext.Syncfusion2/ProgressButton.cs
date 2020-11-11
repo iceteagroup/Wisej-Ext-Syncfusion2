@@ -39,7 +39,10 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public ProgressButton(object options) : base("ej.splitbuttons.ProgressButton", "<button width='100%' height='100%'>", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"begin",
+				"end",
+				"fail",
+				"progress"
 			};
 		}
 	}

@@ -39,7 +39,7 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public RangeNavigator(object options) : base("ej.charts.RangeNavigator", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"changed"
 			};
 		}
 	}

@@ -39,7 +39,45 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public PDFViewer(object options) : base("ej.pdfviewer.PdfViewer", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"addSignature",
+				"annotationAdd",
+				"annotationDoubleClick",
+				"annotationMouseLeave",
+				"annotationMouseover",
+				"annotationMove",
+				"annotationPropertiesChange",
+				"annotationRemove",
+				"annotationResize",
+				"annotationSelect",
+				"bookmarkClick",
+				"documentLoad",
+				"documentLoadFailed",
+				"documentUnload",
+				"downloadEnd",
+				"downloadStart",
+				"exportSuccess",
+				"hyperlinkClick",
+				"hyperlinkMouseOver",
+				"importFailed",
+				"importStart",
+				"importSuccess",
+				"moveSignature",
+				"pageChange",
+				"pageClick",
+				"pageMouseover",
+				"printEnd",
+				"printStart",
+				"removeSignature",
+				"resizeSignature",
+				"signaturePropertiesChanged",
+				"signatureSelect",
+				"textSearchComplete",
+				"textSearchHighlight",
+				"textSearchStart",
+				"textSelectionStart",
+				"textSelectionEnd",
+				"thumbnailClick",
+				"zoomChange"
 			};
 		}
 	}

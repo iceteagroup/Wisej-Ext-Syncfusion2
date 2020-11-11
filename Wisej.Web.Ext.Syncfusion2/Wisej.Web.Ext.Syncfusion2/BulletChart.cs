@@ -39,7 +39,8 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public BulletChart(object options) : base("ej.charts.BulletChart", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"beforePrint",
+				"bulletChartMouseClick"
 			};
 		}
 	}

@@ -34,17 +34,27 @@
 			this.panel.SuspendLayout();
 			this.SuspendLayout();
 			// 
+			// linkDocs
+			// 
+			this.linkDocs.Size = new System.Drawing.Size(642, 24);
+			this.linkDocs.Text = "https://ej2.syncfusion.com/javascript/documentation/bullet-chart/es5-getting-star" +
+    "ted/";
+			// 
+			// linkAPI
+			// 
+			this.linkAPI.Text = "https://ej2.syncfusion.com/javascript/documentation/api/bullet-chart/overview/";
+			// 
 			// panel
 			// 
 			this.panel.Controls.Add(this.bulletChart1);
 			// 
 			// bulletChart1
 			// 
-			this.bulletChart1.Anchor = ((Wisej.Web.AnchorStyles)((Wisej.Web.AnchorStyles.Left | Wisej.Web.AnchorStyles.Right)));
-			this.bulletChart1.Location = new System.Drawing.Point(104, 90);
+			this.bulletChart1.Dock = Wisej.Web.DockStyle.Fill;
+			this.bulletChart1.Location = new System.Drawing.Point(8, 8);
 			this.bulletChart1.Name = "bulletChart1";
 			this.bulletChart1.Options = ((Wisej.Core.DynamicObject)(Wisej.Core.WisejSerializer.Parse(resources.GetString("bulletChart1.Options"))));
-			this.bulletChart1.Size = new System.Drawing.Size(244, 132);
+			this.bulletChart1.Size = new System.Drawing.Size(437, 297);
 			this.bulletChart1.TabIndex = 0;
 			this.bulletChart1.Text = "bulletChart1";
 			// 

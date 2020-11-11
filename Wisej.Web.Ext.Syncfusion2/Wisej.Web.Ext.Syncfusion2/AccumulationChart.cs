@@ -40,7 +40,14 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public AccumulationChart(object options) : base("ej.charts.AccumulationChart", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"beforePrint",
+				"chartMouseClick",
+				"chartMouseDown",
+				"chartMouseLeave",
+				"chartMouseMove",
+				"chartMouseUp",
+				"pointClick",
+				"pointMove",
 			};
 		}
 	}

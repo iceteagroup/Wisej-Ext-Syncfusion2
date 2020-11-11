@@ -39,7 +39,15 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public TreeView(object options) : base("ej.navigations.TreeView", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"keyPress",
+				"nodeChecked",
+				"nodeClicked",
+				"nodeCollapsed",
+				"nodeDragging",
+				"nodeDropped",
+				"nodeEdited",
+				"nodeExpanded",
+				"nodeSelected"
 			};
 		}
 	}

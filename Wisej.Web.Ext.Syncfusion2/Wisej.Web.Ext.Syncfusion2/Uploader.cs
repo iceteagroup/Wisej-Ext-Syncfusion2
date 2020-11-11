@@ -39,7 +39,18 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public Uploader(object options) : base("ej.inputs.Uploader", "<input width='100%' height='100%'>", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"change",
+				"chunkFailure",
+				"chunkSuccess",
+				"chunkUploading",
+				"clearing",
+				"failure",
+				"pausing",
+				"progress",
+				"resuming",
+				"selected",
+				"success",
+				"uploading"
 			};
 		}
 	}

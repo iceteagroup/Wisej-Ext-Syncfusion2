@@ -34,6 +34,16 @@
 			this.panel.SuspendLayout();
 			this.SuspendLayout();
 			// 
+			// linkDocs
+			// 
+			this.linkDocs.Text = "https://ej2.syncfusion.com/javascript/documentation/accumulation-chart/es5-gettin" +
+    "g-started/";
+			// 
+			// linkAPI
+			// 
+			this.linkAPI.Text = "https://ej2.syncfusion.com/javascript/documentation/api/accumulation-chart/overvi" +
+    "ew/";
+			// 
 			// panel
 			// 
 			this.panel.Controls.Add(this.accumulationChart1);

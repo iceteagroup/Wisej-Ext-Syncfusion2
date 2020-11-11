@@ -34,6 +34,15 @@
 			this.panel.SuspendLayout();
 			this.SuspendLayout();
 			// 
+			// linkDocs
+			// 
+			this.linkDocs.Text = "https://ej2.syncfusion.com/javascript/documentation/heatmap-chart/getting-started" +
+    "/";
+			// 
+			// linkAPI
+			// 
+			this.linkAPI.Text = "https://ej2.syncfusion.com/javascript/documentation/api/heatmap/";
+			// 
 			// panel
 			// 
 			this.panel.Controls.Add(this.heatMap1);

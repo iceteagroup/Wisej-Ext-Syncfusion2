@@ -33,6 +33,15 @@
 			this.panel.SuspendLayout();
 			this.SuspendLayout();
 			// 
+			// linkDocs
+			// 
+			this.linkDocs.Text = "https://ej2.syncfusion.com/javascript/documentation/multi-select/es5-getting-star" +
+    "ted/";
+			// 
+			// linkAPI
+			// 
+			this.linkAPI.Text = "https://ej2.syncfusion.com/javascript/documentation/api/multi-select/";
+			// 
 			// panel
 			// 
 			this.panel.Controls.Add(this.multiSelect1);
@@ -40,10 +49,10 @@
 			// multiSelect1
 			// 
 			this.multiSelect1.Anchor = Wisej.Web.AnchorStyles.None;
-			this.multiSelect1.Location = new System.Drawing.Point(91, 130);
+			this.multiSelect1.Location = new System.Drawing.Point(76, 139);
 			this.multiSelect1.Name = "multiSelect1";
 			this.multiSelect1.Options = ((Wisej.Core.DynamicObject)(Wisej.Core.WisejSerializer.Parse("{\"dataSource\":[\"Badminton\",\"Cricket\",\"Football\",\"Golf\",\"Tennis\"]}")));
-			this.multiSelect1.Size = new System.Drawing.Size(270, 52);
+			this.multiSelect1.Size = new System.Drawing.Size(300, 35);
 			this.multiSelect1.TabIndex = 0;
 			this.multiSelect1.Text = "multiSelect1";
 			// 

@@ -33,6 +33,15 @@
 			this.panel.SuspendLayout();
 			this.SuspendLayout();
 			// 
+			// linkDocs
+			// 
+			this.linkDocs.Text = "https://ej2.syncfusion.com/javascript/documentation/circular-gauge/es5-getting-st" +
+    "arted/";
+			// 
+			// linkAPI
+			// 
+			this.linkAPI.Text = "https://ej2.syncfusion.com/javascript/documentation/api/circular-gauge/";
+			// 
 			// panel
 			// 
 			this.panel.Controls.Add(this.circularGauge1);
@@ -42,6 +51,7 @@
 			this.circularGauge1.Dock = Wisej.Web.DockStyle.Fill;
 			this.circularGauge1.Location = new System.Drawing.Point(8, 8);
 			this.circularGauge1.Name = "circularGauge1";
+			this.circularGauge1.Options = ((Wisej.Core.DynamicObject)(Wisej.Core.WisejSerializer.Parse("{\"axes\":[{\"pointers\":[{\"value\":35}]}]}")));
 			this.circularGauge1.Size = new System.Drawing.Size(437, 297);
 			this.circularGauge1.TabIndex = 0;
 			this.circularGauge1.Text = "circularGauge1";

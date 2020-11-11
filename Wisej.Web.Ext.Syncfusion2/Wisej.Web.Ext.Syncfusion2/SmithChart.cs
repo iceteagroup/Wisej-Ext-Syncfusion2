@@ -38,9 +38,6 @@ namespace Wisej.Web.Ext.Syncfusion2
 		/// <param name="options">Initial set of options.</param>
 		public SmithChart(object options) : base("ej.charts.Smithchart", options)
 		{
-			this.WiredEvents = new[] {
-				""
-			};
 		}
 	}
 }

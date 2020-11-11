@@ -39,7 +39,14 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public StockChart(object options) : base("ej.charts.StockChart", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"pointClick",
+				"pointMove",
+				"rangeChange",
+				"stockChartMouseClick",
+				"stockChartMouseDown",
+				"stockChartMouseLeave",
+				"stockChartMouseMove",
+				"stockChartMouseUp",
 			};
 		}
 	}

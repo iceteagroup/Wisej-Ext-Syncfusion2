@@ -33,6 +33,14 @@
 			this.panel.SuspendLayout();
 			this.SuspendLayout();
 			// 
+			// linkDocs
+			// 
+			this.linkDocs.Text = "https://ej2.syncfusion.com/javascript/documentation/pdfviewer/getting-started/";
+			// 
+			// linkAPI
+			// 
+			this.linkAPI.Text = "https://ej2.syncfusion.com/javascript/documentation/api/pdfviewer/";
+			// 
 			// panel
 			// 
 			this.panel.Controls.Add(this.pdfViewer1);

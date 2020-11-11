@@ -39,7 +39,14 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public DateRangePicker(object options) : base("ej.calendars.DateRangePicker", "<input width='100%' height='100%'>", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"blur",
+				"change",
+				"cleared",
+				"close",
+				"focus",
+				"navigated",
+				"open",
+				"select"
 			};
 		}
 	}

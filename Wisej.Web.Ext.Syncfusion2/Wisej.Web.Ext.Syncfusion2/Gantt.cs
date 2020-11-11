@@ -39,7 +39,25 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public Gantt(object options) : base("ej.gantt.Gantt", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"beforeExcelExport",
+				"beforePdfExport",
+				"cellDeselected",
+				"cellDeselecting",
+				"cellEdit",
+				"cellSelected",
+				"cellSelecting",
+				"collapsed",
+				"collapsing",
+				"columnDrag",
+				"columnDrop",
+				"columnMenuClick",
+				"contextMenuClick",
+				"expanded",
+				"rowDrag",
+				"rowDrop",
+				"rowSelected",
+				"splitterResized",
+				"toolbarClick"
 			};
 		}
 	}

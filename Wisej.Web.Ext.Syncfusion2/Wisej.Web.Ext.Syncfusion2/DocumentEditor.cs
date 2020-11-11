@@ -39,7 +39,16 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public DocumentEditor(object options) : base("ej.documenteditor.DocumentEditorContainer", options)
 		{
 			this.WiredEvents = new[] {
-				""
+				"beforePaneSwitch",
+				"commentDelete",
+				"commentChange",
+				"contentControl",
+				"customContextMenuSelect",
+				"documentChange",
+				"selectionChange",
+				"serviceFailure",
+				"toolbarClick",
+				"trackChange"
 			};
 		}
 	}
