@@ -8,6 +8,9 @@ namespace Wisej.Web.Ext.Syncfusion2.Test.Component
 		public ChipList()
 		{
 			InitializeComponent();
+
+			this.chipList1.Instance.click += new WidgetEventHandler(chipList1_WidgetEvent);
+			this.chipList1.Instance.delete += new WidgetEventHandler(chipList1_WidgetEvent);
 		}
 
 		private void ChipList_Load(object sender, EventArgs e)
@@ -40,6 +43,15 @@ namespace Wisej.Web.Ext.Syncfusion2.Test.Component
 					cssClass = "e-danger"
 				} 
 			};
+		}
+
+		private void chipList1_WidgetEvent(object sender, WidgetEventArgs e)
+		{
+			AlertBox.Show(
+				$"<b>{e.Type}</b><br/>{JSON.Stringify(e.Data)}",
+				MessageBoxIcon.Information);
+
+			Application.Play(MessageBoxIcon.Information);
 		}
 	}
 }

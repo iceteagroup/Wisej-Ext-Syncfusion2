@@ -52,7 +52,7 @@
 			this.panel1.Name = "panel1";
 			this.panel1.Padding = new Wisej.Web.Padding(20);
 			this.panel1.ShowHeader = true;
-			this.panel1.Size = new System.Drawing.Size(250, 463);
+			this.panel1.Size = new System.Drawing.Size(250, 353);
 			this.panel1.TabIndex = 0;
 			this.panel1.TabStop = true;
 			this.panel1.Text = "Component";
@@ -65,7 +65,7 @@
 			this.listBox1.IconMember = "Icon";
 			this.listBox1.Location = new System.Drawing.Point(20, 20);
 			this.listBox1.Name = "listBox1";
-			this.listBox1.Size = new System.Drawing.Size(208, 381);
+			this.listBox1.Size = new System.Drawing.Size(208, 271);
 			this.listBox1.TabIndex = 0;
 			this.listBox1.ValueMember = "Name";
 			this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
@@ -79,7 +79,7 @@
 			this.panel2.Name = "panel2";
 			this.panel2.ShowCloseButton = false;
 			this.panel2.ShowHeader = true;
-			this.panel2.Size = new System.Drawing.Size(871, 463);
+			this.panel2.Size = new System.Drawing.Size(998, 353);
 			this.panel2.TabIndex = 1;
 			this.panel2.TabStop = true;
 			this.panel2.Text = "Test";
@@ -92,7 +92,7 @@
 			this.panel3.Dock = Wisej.Web.DockStyle.Top;
 			this.panel3.Location = new System.Drawing.Point(0, 0);
 			this.panel3.Name = "panel3";
-			this.panel3.Size = new System.Drawing.Size(1121, 100);
+			this.panel3.Size = new System.Drawing.Size(1248, 100);
 			this.panel3.TabIndex = 0;
 			this.panel3.TabStop = true;
 			// 
@@ -110,7 +110,7 @@
             "highcontrast",
             "material-dark",
             "material"});
-			this.comboBox1.Location = new System.Drawing.Point(897, 49);
+			this.comboBox1.Location = new System.Drawing.Point(1024, 49);
 			this.comboBox1.Name = "comboBox1";
 			this.comboBox1.Size = new System.Drawing.Size(193, 35);
 			this.comboBox1.TabIndex = 3;
@@ -144,7 +144,7 @@
 			this.Controls.Add(this.panel1);
 			this.Controls.Add(this.panel3);
 			this.Name = "MainView";
-			this.Size = new System.Drawing.Size(1121, 563);
+			this.Size = new System.Drawing.Size(1248, 453);
 			this.Load += new System.EventHandler(this.MainView_Load);
 			this.panel1.ResumeLayout(false);
 			this.panel3.ResumeLayout(false);

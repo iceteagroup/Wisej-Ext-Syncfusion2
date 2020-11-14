@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 
@@ -6,6 +7,7 @@ namespace Wisej.Web.Ext.Syncfusion2.Test.Component
 {
 	public partial class Maps : Wisej.Web.Ext.Syncfusion2.Test.Component.TestBase
 	{
+		private List<object> dataSource = new List<object>();
 		public Maps()
 		{
 			InitializeComponent();
@@ -19,6 +21,15 @@ namespace Wisej.Web.Ext.Syncfusion2.Test.Component
 				new
 				{
 					shapeData = JSON.Parse(worldText),
+
+					// apply cluster settings.
+					markerClusterSettings = new {
+						allowClustering = true,
+						shape = "Image",
+						width = 40,
+						height = 40,
+						imageUrl = "/Images/cluster.svg"
+					},
 					// load markers and configuration.
 					markerSettings = new[]
 					{
@@ -39,7 +50,7 @@ namespace Wisej.Web.Ext.Syncfusion2.Test.Component
 								format = "City: ${city} <br> Population: ${population}",
 								visible = true,
 								valuePath = "city"
-							}
+							},
 						}
 					}
 				},
@@ -48,7 +59,7 @@ namespace Wisej.Web.Ext.Syncfusion2.Test.Component
 			// enable zoom.
 			this.maps1.Options.zoomSettings = new
 			{
-				enable = true
+				enable = true,
 			};
 
 			this.maps1.Update();
@@ -67,6 +78,12 @@ namespace Wisej.Web.Ext.Syncfusion2.Test.Component
 					latitude = 40.71427,
 					longitude = -74.00597,
 					population = "8.39M"
+				},
+				new {
+					city = "Philadelphia",
+					latitude = 39.952583,
+					longitude = -75.165222,
+					population = "1.584M"
 				},
 				new {
 					city = "Los Angeles",
@@ -92,10 +109,16 @@ namespace Wisej.Web.Ext.Syncfusion2.Test.Component
 				{
 					dataSource = new[] {
 						new {
-						city = "Chicago",
-						latitude = 41.1881832,
-						longitude = -87.623177,
-						population = "2.706M"
+							city = "Chicago",
+							latitude = 41.1881832,
+							longitude = -87.623177,
+							population = "2.706M"
+						},
+						new {
+							city = "Gary",
+							latitude = 41.5885903,
+							longitude = -87.3978775,
+							population = "75,282"
 						}
 					},
 					visible = true,
@@ -115,6 +138,12 @@ namespace Wisej.Web.Ext.Syncfusion2.Test.Component
 					}
 				}
 			});
+			this.maps1.Instance.refresh();
+		}
+
+		private void buttonUpdate_Click(object sender, EventArgs e)
+		{
+			this.maps1.Instance.refresh();
 		}
 	}
 }

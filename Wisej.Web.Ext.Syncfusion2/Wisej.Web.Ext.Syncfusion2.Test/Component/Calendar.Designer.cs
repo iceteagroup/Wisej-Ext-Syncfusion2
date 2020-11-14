@@ -48,10 +48,10 @@
 			// 
 			// calendar1
 			// 
-			this.calendar1.Dock = Wisej.Web.DockStyle.Fill;
-			this.calendar1.Location = new System.Drawing.Point(8, 8);
+			this.calendar1.Anchor = Wisej.Web.AnchorStyles.None;
+			this.calendar1.Location = new System.Drawing.Point(95, 18);
 			this.calendar1.Name = "calendar1";
-			this.calendar1.Size = new System.Drawing.Size(437, 297);
+			this.calendar1.Size = new System.Drawing.Size(263, 277);
 			this.calendar1.TabIndex = 0;
 			this.calendar1.Text = "calendar1";
 			// 

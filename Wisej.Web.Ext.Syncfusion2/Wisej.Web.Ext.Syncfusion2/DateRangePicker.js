@@ -31,3 +31,34 @@ this.resizeWidget = function () {
 		widget.width = bounds.width - 1;
 	}
 }
+
+// Returns a data map that can be converted to JSON.
+this.filterEventData = function (args) {
+
+	var data = {};
+	switch (args.name) {
+
+		case "change":
+		case "select":
+			data = {
+				daySpan: args.daySpan,
+				endDate: args.endDate,
+				isInteracted: args.isInteracted,
+				startDate: args.startDate,
+				text: args.text,
+				value: args.value
+			};
+			break;
+
+		case "navigated":
+			data = {
+				name: args.name,
+				view: args.view
+			};
+			break;
+
+		default:
+			break;
+	}
+	return data;
+}

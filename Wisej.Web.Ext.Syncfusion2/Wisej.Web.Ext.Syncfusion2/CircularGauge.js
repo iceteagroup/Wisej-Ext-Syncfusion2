@@ -18,3 +18,28 @@
 // FROM ICE TEA GROUP LLC.
 //
 ///////////////////////////////////////////////////////////////////////////////
+
+// Returns a data map that can be converted to JSON.
+this.filterEventData = function (args) {
+
+	var data = {};
+	switch (args.name) {
+
+		case "dragEnd":
+		case "dragMove":
+		case "dragStart":
+			data = {
+				axisIndex: args.axisIndex,
+				currentValue: args.currentValue,
+				pointerIndex: args.pointerIndex,
+				previousValue: args.previousValue,
+				rangeIndex: args.rangeIndex,
+				type: args.type
+			}
+			break;
+
+		default:
+			break;
+	}
+	return data;
+}

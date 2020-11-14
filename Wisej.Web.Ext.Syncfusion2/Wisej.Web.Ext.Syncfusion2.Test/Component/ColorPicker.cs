@@ -12,13 +12,10 @@ namespace Wisej.Web.Ext.Syncfusion2.Test.Component
 			this.colorPicker1.Instance.change += new WidgetEventHandler(colorPicker1_WidgetEvent);
 		}
 
-		private void colorPicker1_WidgetEvent(object sender, WidgetEventArgs e)
+		private async void colorPicker1_WidgetEvent(object sender, WidgetEventArgs e)
 		{
-			AlertBox.Show(
-					$"<b>{e.Type}</b><br/>{JSON.Stringify(e.Data)}",
-					MessageBoxIcon.Information);
-
-			Application.Play(MessageBoxIcon.Information);
+			var color = await this.colorPicker1.Instance.getValueAsync();
+			AlertBox.Show($"Color: {color}");
 		}
 	}
 }

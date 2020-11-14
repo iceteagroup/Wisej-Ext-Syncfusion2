@@ -50,6 +50,10 @@
 			this.groupBox1.Controls.SetChildIndex(this.buttonUpdate, 0);
 			this.groupBox1.Controls.SetChildIndex(this.button1, 0);
 			// 
+			// buttonUpdate
+			// 
+			this.buttonUpdate.Click += new System.EventHandler(this.buttonUpdate_Click);
+			// 
 			// panel
 			// 
 			this.panel.Controls.Add(this.maps1);
@@ -59,6 +63,7 @@
 			this.maps1.Dock = Wisej.Web.DockStyle.Fill;
 			this.maps1.Location = new System.Drawing.Point(8, 8);
 			this.maps1.Name = "maps1";
+			this.maps1.Options = ((Wisej.Core.DynamicObject)(Wisej.Core.WisejSerializer.Parse("{\"useGroupingSeparator\":true,\"format\":\"n\"}")));
 			this.maps1.Size = new System.Drawing.Size(437, 297);
 			this.maps1.TabIndex = 0;
 			this.maps1.Text = "maps1";

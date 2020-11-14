@@ -18,3 +18,55 @@
 // FROM ICE TEA GROUP LLC.
 //
 ///////////////////////////////////////////////////////////////////////////////
+
+// Returns a data map that can be converted to JSON.
+this.filterEventData = function (args) {
+
+	var data = {};
+	switch (args.name) {
+
+		case "axisLabelClick":
+			data = {
+				index: args.index,
+				labelID: args.labelID,
+				text: args.text,
+				value: args.value
+			};
+			break;
+
+		case "legendClick":
+			data = {
+				legendShape: args.legendShape,
+				legendText: args.legendText
+			};
+			break;
+
+		case "multiLevelLabelClick":
+			data = {
+				text: args.text
+			};
+			break;
+
+		case "pointMove":
+		case "pointClick":
+		case "pointDoubleClick":
+			data = {
+				pageX: args.pageX,
+				pageY: args.pageY,
+				pointIndex: args.pointIndex,
+				seriesIndex: args.seriesIndex
+			};
+			break;
+
+		case "selectionComplete":
+			data = {
+				selectedDataValues: args.selectedDataValues
+			};
+			break;
+
+		default:
+			break;
+	}
+
+	return data;
+}

@@ -320,8 +320,8 @@
     <EmbeddedResource Include="Syncfusion\ej2\bootstrap.css" />
     <EmbeddedResource Include="Syncfusion\ej2\bootstrap4.css" />
     <EmbeddedResource Include="Syncfusion\ej2\dist\ej2.min.js" />
-    <Content Include="Syncfusion\ej2\fabric-dark.css" />
-    <Content Include="Syncfusion\ej2\fabric.css" />
+    <EmbeddedResource Include="Syncfusion\ej2\fabric-dark.css" />
+    <EmbeddedResource Include="Syncfusion\ej2\fabric.css" />
     <EmbeddedResource Include="Syncfusion\ej2\highcontrast.css" />
     <EmbeddedResource Include="Syncfusion\ej2\material-dark.css" />
     <EmbeddedResource Include="Syncfusion\ej2\material.css" />
@@ -348,7 +348,6 @@
   <ItemGroup>
     <None Include="extension.snk" />
     <None Include="itg.licenseheader" />
-    <EmbeddedResource Include="Syncfusion\ej2\dist\ej2.min.js.map" />
     <None Include="Syncfusion\ej2\license" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
