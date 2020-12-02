@@ -223,11 +223,6 @@ namespace Wisej.Web.Ext.Syncfusion2
 				{
 					packages.Add(new Package()
 					{
-						Name = "polyfill.js",
-						Source = this.GetResourceURL($"{RESOURCES_ROOT}/external/polyfill.min.js")
-					});
-					packages.Add(new Package()
-					{
 						Name = "ej2.js",
 						Source = this.GetResourceURL($"{RESOURCES_ROOT}/ej2/dist/ej2.min.js")
 					});

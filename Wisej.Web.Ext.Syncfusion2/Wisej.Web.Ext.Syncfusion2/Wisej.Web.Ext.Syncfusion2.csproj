@@ -308,7 +308,6 @@
     <EmbeddedResource Include="Spreadsheet.js">
       <DependentUpon>Spreadsheet.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Syncfusion\external\polyfill.min.js" />
     <EmbeddedResource Include="Grid.js">
       <DependentUpon>Grid.cs</DependentUpon>
     </EmbeddedResource>
