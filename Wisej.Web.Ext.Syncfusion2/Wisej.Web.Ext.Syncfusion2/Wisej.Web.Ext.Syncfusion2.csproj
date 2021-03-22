@@ -134,6 +134,9 @@
     <Compile Include="RangeNavigator.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="SymbolPalette.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Slider.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -314,7 +317,7 @@
     <EmbeddedResource Include="LinearGauge.js">
       <DependentUpon>LinearGauge.cs</DependentUpon>
     </EmbeddedResource>
-    <Content Include="ejSyncfusion.bmp" />
+    <EmbeddedResource Include="ejSyncfusion.bmp" />
     <EmbeddedResource Include="Syncfusion\ej2\bootstrap-dark.css" />
     <EmbeddedResource Include="Syncfusion\ej2\bootstrap.css" />
     <EmbeddedResource Include="Syncfusion\ej2\bootstrap4.css" />
@@ -348,6 +351,11 @@
     <None Include="extension.snk" />
     <None Include="itg.licenseheader" />
     <None Include="Syncfusion\ej2\license" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SymbolPalette.js">
+      <DependentUpon>SymbolPalette.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

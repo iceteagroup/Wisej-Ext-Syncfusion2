@@ -54,10 +54,12 @@
 			this.fileManager1.Size = new System.Drawing.Size(437, 297);
 			this.fileManager1.TabIndex = 0;
 			this.fileManager1.Text = "fileManager1";
+			this.fileManager1.WebRequest += new Wisej.Web.WebRequestHandler(this.fileManager1_WebRequest);
 			// 
 			// FileManager
 			// 
 			this.Name = "FileManager";
+			this.Load += new System.EventHandler(this.FileManager_Load);
 			this.groupBox1.ResumeLayout(false);
 			this.panel.ResumeLayout(false);
 			this.ResumeLayout(false);

@@ -314,12 +314,14 @@ qx.Class.define("wisej.web.ext.Syncfusion2Widget", {
 				if (!t.id || !t.template)
 					continue;
 
-				// build the template <script id="id" type="text/x-jsrender">template</script>.
-				tpl = document.createElement("script");
-				tpl.id = t.id;
-				tpl.innerHTML = t.template;
-				tpl.type = t.type || "text/x-jsrender";
-				document.body.appendChild(tpl);
+				if (!document.getElementById(t.id)) {
+					// build the template <script id="id" type="text/x-jsrender">template</script>.
+					tpl = document.createElement("script");
+					tpl.id = t.id;
+					tpl.innerHTML = t.template;
+					tpl.type = t.type || "text/x-jsrender";
+					document.head.appendChild(tpl);
+				}
 			}
 
 		},

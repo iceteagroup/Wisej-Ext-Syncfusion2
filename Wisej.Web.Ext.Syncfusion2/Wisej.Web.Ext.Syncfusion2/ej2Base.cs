@@ -32,7 +32,7 @@ using Wisej.Design;
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// The <see cref="ej2Base"/> class is the foundation of all Syncfusion JS1 visual controls.
+	/// The <see cref="ej2Base"/> class is the foundation of all Syncfusion EJ2 visual controls.
 	/// </summary>
 	[ToolboxBitmap(typeof(ej2Base), "ejSyncfusion.bmp")]
 	public abstract class ej2Base : Widget
