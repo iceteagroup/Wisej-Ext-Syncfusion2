@@ -1,11 +1,12 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.IO;
+using System.Linq;
 using System.Net;
 using System.Web;
 using Wisej.Core;
-using Wisej.Web;
+using DynamicObject = Wisej.Core.DynamicObject;
 
 namespace Wisej.Web.Ext.Syncfusion2.Test.Component
 {
@@ -63,6 +64,8 @@ namespace Wisej.Web.Ext.Syncfusion2.Test.Component
 			}
 		}
 
+		#region Download
+
 		private void ProcessDownloadOperation(HttpRequest request, HttpResponse response)
 		{
 			var args = JSON.Parse(request.Form[0]);
@@ -83,6 +86,10 @@ namespace Wisej.Web.Ext.Syncfusion2.Test.Component
 				Application.Download(fileData.path);
 			}
 		}
+
+		#endregion
+
+		#region Upload
 
 		private void ProcessUploadOperation(HttpRequest request)
 		{
@@ -108,6 +115,10 @@ namespace Wisej.Web.Ext.Syncfusion2.Test.Component
 			}
 		}
 
+		#endregion
+
+		#region File Operations
+
 		private void ProcessFileOperations(HttpResponse response, dynamic data)
 		{
 
@@ -120,12 +131,79 @@ namespace Wisej.Web.Ext.Syncfusion2.Test.Component
 
 				switch (action)
 				{
+
+					case "details":
+						response.Write(ProcessFileDetails(innerData));
+						break;
+
+					case "delete":
+						foreach (var item in innerData)
+						{
+							var itemPath = item.path;
+							var isFile = item.isFile;
+
+							if (isFile)
+								File.Delete(itemPath);
+							else
+								Directory.Delete(itemPath);
+						}
+
+						response.Write(ReadFiles(path));
+						break;
+
 					case "read":
 						response.Write(ReadFiles(path));
 						break;
 
 				}
 			}
+		}
+
+		private string ProcessFileDetails(Array files)
+		{
+			dynamic details = new DynamicObject();
+
+			foreach (dynamic item in files)
+			{
+				var path = item.path;
+				var name = item.name;
+				FileSystemInfo info = null;
+
+				if (item.isFile)
+				{
+					var file = new FileInfo(path);
+					details.isFile = true;
+					info = file;
+
+					details.size = (details.size == null) ? file.Length : details.size + file.Length;
+				}
+				else
+				{
+					var directory = new DirectoryInfo(path);
+					details.isFile = false;
+					info = directory;
+
+					details.size = (details.size == null) ? GetDirectorySize(directory) : details.size + GetDirectorySize(directory);
+				}
+
+				details.location = path.Substring(0, path.IndexOf(name));
+				details.multipleFiles = (details.multipleFiles == null) ? false : true;
+				details.modified = (details.modified == null) ? info.LastWriteTime : DateTime.MinValue;
+				details.name = (details.name == null) ? info.Name : String.Join(", ", details.name, info.Name);
+			}
+
+			var response = new
+			{
+				details = details
+			};
+
+			return JSON.Stringify(response);
+		}
+
+		private long GetDirectorySize(DirectoryInfo dir)
+		{
+			return dir.GetFiles().Sum(fi => fi.Length) +
+				dir.GetDirectories().Sum(di => GetDirectorySize(di));
 		}
 
 		private string ReadFiles(string path)
@@ -174,14 +252,20 @@ namespace Wisej.Web.Ext.Syncfusion2.Test.Component
 				{
 					isFile = false,
 					filterPath = path,
-					Name = directory.Name,
+					caseSensitive = false,
+					name = directory.Name,
 					showHiddenItems = false,
 					hasChild = files.Length > 0,
+					dateCreated = directory.CreationTime,
+					dateModified = directory.LastWriteTime,
 				},
 				files = myFiles
 			};
 
 			return JSON.Stringify(response);
 		}
+
+		#endregion
+
 	}
 }
