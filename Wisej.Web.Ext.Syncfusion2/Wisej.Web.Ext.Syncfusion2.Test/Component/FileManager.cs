@@ -17,6 +17,9 @@ namespace Wisej.Web.Ext.Syncfusion2.Test.Component
 		public FileManager()
 		{
 			InitializeComponent();
+
+			this.fileManager1.Instance.menuClick += new WidgetEventHandler(fileManager1_WidgetEvent);
+			this.fileManager1.Instance.fileSelect += new WidgetEventHandler(fileManager1_WidgetEvent);
 		}
 
 		private void FileManager_Load(object sender, EventArgs e)
@@ -265,7 +268,24 @@ namespace Wisej.Web.Ext.Syncfusion2.Test.Component
 			return JSON.Stringify(response);
 		}
 
-		#endregion
+        #endregion
 
-	}
+        private void fileManager1_WidgetEvent(object sender, WidgetEventArgs e)
+        {
+			switch (e.Type)
+            {
+				case "fileSelect":
+					AlertBox.Show($"{e.Data.action} {e.Data.fileDetails.name}");
+					break;
+
+				case "menuClick":
+					AlertBox.Show($"Selected {e.Data.item} on items: {JSON.Stringify(e.Data.fileDetails)}");
+					break;
+
+				default:
+					AlertBox.Show(e.Type);
+					break;
+            }
+        }
+    }
 }
