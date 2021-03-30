@@ -33,7 +33,7 @@ namespace Wisej.Web.Ext.Syncfusion2.Test.Component
 					uploadUrl = baseUrl + "&perform=Upload",
 					downloadUrl = baseUrl + "&perform=Download"
 				},
-				view = "LargeIcons"
+				view = "LargeIcons",
 			};
 		}
 
@@ -134,7 +134,6 @@ namespace Wisej.Web.Ext.Syncfusion2.Test.Component
 
 				switch (action)
 				{
-
 					case "details":
 						response.Write(ProcessFileDetails(innerData));
 						break;
@@ -215,6 +214,22 @@ namespace Wisej.Web.Ext.Syncfusion2.Test.Component
 			var appPath = Application.MapPath(path);
 			var directory = new DirectoryInfo(appPath);
 			var filesInfo = directory.GetFileSystemInfos();
+
+			switch (appPath)
+            {
+				case "1":
+					appPath = Path.Combine("data/fileuploads/company1", path);
+					break;
+
+				case "2":
+					appPath = Path.Combine("data/fileuploads/company2", path);
+					break;
+
+				case "3":
+					appPath = Path.Combine("data/fileuploads/company3", path);
+					break;
+
+            }
 
 			return GetFilesJson(directory, filesInfo, path);
 		}

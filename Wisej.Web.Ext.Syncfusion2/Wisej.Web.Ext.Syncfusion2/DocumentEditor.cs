@@ -21,7 +21,9 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// The Document Editor component is used to create, edit, view, and print Word documents in web applications. 
+	/// All the user interactions and editing operations that run purely in the client-side provides much faster 
+	/// editing experience to the users.
 	/// </summary>
 	public class DocumentEditor : ej2Base
 	{

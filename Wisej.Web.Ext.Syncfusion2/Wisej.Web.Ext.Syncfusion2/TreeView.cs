@@ -21,7 +21,8 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// The TreeView component is used to represent hierarchical data in a tree like 
+	/// structure with advanced functions to edit, drag and drop, select with CheckBox and more.
 	/// </summary>
 	public class TreeView : ej2Base
 	{

@@ -21,7 +21,9 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// The HTML5/JavaScript In-Place Editor control is most useful for editing a value dynamically within its context (in-place).
+	/// It has built-in support to handle all the form controls, including TextBox, Dropdown List, DatePicker, and Rich Text Editor. 
+	/// It features inline and pop-up modes, and customizable user interface (UI) and events.
 	/// </summary>
 	public class InPlaceEditor : ej2Base
 	{
@@ -39,8 +41,8 @@ namespace Wisej.Web.Ext.Syncfusion2
 		public InPlaceEditor(object options) : base("ej.inplaceeditor.InPlaceEditor", options)
 		{
 			this.WiredEvents = new[] {
-				"cancelClick",
 				"change",
+				"cancelClick",
 				"submitClick",
 			};
 		}

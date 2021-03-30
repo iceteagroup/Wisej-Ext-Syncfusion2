@@ -21,7 +21,7 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// Displays a group of command buttons arranged horizontally.
 	/// </summary>
 	public class Toolbar : ej2Base
 	{

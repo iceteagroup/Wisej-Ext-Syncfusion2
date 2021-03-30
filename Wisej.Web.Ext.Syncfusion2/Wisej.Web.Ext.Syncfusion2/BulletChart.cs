@@ -21,7 +21,8 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// Bullet charts are used to visually compare measures, like the commonly used bar chart. 
+	/// They display one or more measures and compare them with a target value.
 	/// </summary>
 	public class BulletChart : ej2Base
 	{

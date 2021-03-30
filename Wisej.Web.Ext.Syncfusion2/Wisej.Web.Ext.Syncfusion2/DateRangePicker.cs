@@ -21,7 +21,8 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// DateRangePicker is an interactive component that allows the user 
+	/// to select a range from the calendar, or to set a range value.
 	/// </summary>
 	public class DateRangePicker : ej2Base
 	{

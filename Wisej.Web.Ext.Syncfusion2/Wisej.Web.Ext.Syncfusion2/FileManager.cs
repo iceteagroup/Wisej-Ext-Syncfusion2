@@ -21,7 +21,8 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// The File Manager component is used to explore a file system through a web application, 
+	/// similar to the windows explorer for windows. It supports the basic file operations such as create, rename, delete.
 	/// </summary>
 	public class FileManager : ej2Base
 	{

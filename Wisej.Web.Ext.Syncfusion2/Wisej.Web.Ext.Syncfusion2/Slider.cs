@@ -21,7 +21,7 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// The slider component allows you to select a value or range of values between the min and max range.
 	/// </summary>
 	public class Slider : ej2Base
 	{

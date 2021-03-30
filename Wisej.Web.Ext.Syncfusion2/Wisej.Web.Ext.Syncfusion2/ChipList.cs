@@ -21,7 +21,8 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// Chip is a small block of essential information that triggers an event on click action. 
+	/// It contains the text, an image, or both, mostly used in contacts, mails or filter tags.
 	/// </summary>
 	public class ChipList : ej2Base
 	{

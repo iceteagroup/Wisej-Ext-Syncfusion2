@@ -21,7 +21,8 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// The Maps component is used to visualize the geographical data and represent the statistical data of 
+	/// a particular geographical area on earth with user interactivity, and provides various customizing options.
 	/// </summary>
 	public class Maps : ej2Base
 	{

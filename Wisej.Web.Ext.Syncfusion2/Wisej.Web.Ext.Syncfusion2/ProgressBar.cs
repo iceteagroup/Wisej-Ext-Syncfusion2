@@ -21,7 +21,8 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// The progress bar provides a customizable visual to indicate 
+	/// the progress of a task with different shape such as rectangle and circle.
 	/// </summary>
 	public class ProgressBar : ej2Base
 	{

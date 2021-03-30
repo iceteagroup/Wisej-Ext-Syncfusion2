@@ -21,7 +21,7 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// The Dropdown Tree control contains a hierarchical structure list of pre-defined values from that the user can choose a single value.
 	/// </summary>
 	public class DropDownTree : ej2Base
 	{

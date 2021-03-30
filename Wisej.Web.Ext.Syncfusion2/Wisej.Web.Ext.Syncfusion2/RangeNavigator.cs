@@ -21,7 +21,8 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// RangeNavigator is a data visualization control. It allows you to scroll and navigate through the data. 
+	/// This control easily combines with other controls such as Chart, Data Grid, etc., to create rich and powerful dashboards.
 	/// </summary>
 	public class RangeNavigator : ej2Base
 	{

@@ -21,7 +21,7 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// The DropDownList component contains a list of predefined values from that the user can choose a single value.
 	/// </summary>
 	public class DropDownList : ej2Base
 	{

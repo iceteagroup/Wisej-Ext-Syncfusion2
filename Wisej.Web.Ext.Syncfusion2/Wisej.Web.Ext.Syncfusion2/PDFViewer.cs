@@ -21,7 +21,7 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// The PDF Viewer component enables you to view and print the PDF files.
 	/// </summary>
 	public class PDFViewer : ej2Base
 	{

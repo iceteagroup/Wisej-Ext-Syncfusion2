@@ -21,7 +21,9 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// Very small chart control drawn without axes or coordinates. 
+	/// The sparklines are easy to interpret and convey more information 
+	/// to users by visualizing data in a small amount of space.
 	/// </summary>
 	public class Sparkline : ej2Base
 	{

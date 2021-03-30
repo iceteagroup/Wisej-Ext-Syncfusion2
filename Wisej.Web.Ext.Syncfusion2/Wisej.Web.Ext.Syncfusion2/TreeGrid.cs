@@ -21,7 +21,8 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// The TreeGrid component is a feature-rich control used to visualize 
+	/// self-referential hierarchical data effectively in a tabular format.
 	/// </summary>
 	public class TreeGrid : ej2Base
 	{

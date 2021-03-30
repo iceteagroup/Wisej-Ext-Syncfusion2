@@ -21,7 +21,8 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// The DateTimePicker is a graphical user interface component 
+	/// that allows the user to select, or to enter a datetime value.
 	/// </summary>
 	public class DateTimePicker : ej2Base
 	{

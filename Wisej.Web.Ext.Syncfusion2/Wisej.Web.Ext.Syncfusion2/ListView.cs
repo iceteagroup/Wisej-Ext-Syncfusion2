@@ -21,7 +21,8 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// The listview control allows you to select an item or multiple items from a list-like interface 
+	/// and represents the data in interactive hierarchical structure across different layouts or views.
 	/// </summary>
 	public class ListView : ej2Base
 	{

@@ -21,7 +21,8 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// The ProgressButton visualizes the progression of an operation to indicate the user 
+	/// that a process is happening in the background with visual representation.
 	/// </summary>
 	public class ProgressButton : ej2Base
 	{

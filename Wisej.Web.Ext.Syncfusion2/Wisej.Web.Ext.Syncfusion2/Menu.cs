@@ -21,7 +21,7 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// The menu component is a graphical user interface that serves as navigation header for your application or site. 
 	/// </summary>
 	public class Menu : ej2Base
 	{

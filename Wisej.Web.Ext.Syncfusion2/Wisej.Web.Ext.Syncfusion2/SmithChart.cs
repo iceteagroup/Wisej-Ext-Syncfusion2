@@ -21,7 +21,8 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// Tool for visualizing the data of high frequency circuit applications. 
+	/// It contains two sets of circles to plot parameters of transmission lines.
 	/// </summary>
 	public class SmithChart : ej2Base
 	{

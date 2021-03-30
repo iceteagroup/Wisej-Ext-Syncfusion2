@@ -21,7 +21,8 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// The Gantt provides support for automatic and manual task scheduling modes. It is used to 
+	/// indicate whether the start date and end date of all the tasks will be automatically validated or not.
 	/// </summary>
 	public class Gantt : ej2Base
 	{

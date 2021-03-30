@@ -21,7 +21,8 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// The diagram component visually represents information. It is also used to create diagrams 
+	/// like flow charts, organizational charts, mind maps, and BPMN either through code or a visual interface.
 	/// </summary>
 	public class Diagram : ej2Base
 	{

@@ -21,7 +21,8 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// The Kanban Board is an efficient way to visualize workflow at each stage along its path to completion. 
+	/// The control supports necessary features to design task scheduling applications.
 	/// </summary>
 	public class Kanban : ej2Base
 	{

@@ -21,7 +21,8 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// Represents the Calendar component that allows the user to select a date.
+	/// The Calendar is a graphical user interface component which provides the multi-view representation to display 
+	/// and select a date. Also, provide options to navigate in different levels of views like month, year, decade.
 	/// </summary>
 	public class Calendar : ej2Base
 	{

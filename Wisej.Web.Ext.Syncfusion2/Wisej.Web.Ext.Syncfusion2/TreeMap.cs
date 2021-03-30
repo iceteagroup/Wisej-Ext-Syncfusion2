@@ -21,7 +21,8 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// The tree map control provides a simple and effective way to visualize flat or hierarchical data 
+	/// as clustered rectangles with a specific, weighted attribute determining the size of each rectangle.
 	/// </summary>
 	public class TreeMap : ej2Base
 	{

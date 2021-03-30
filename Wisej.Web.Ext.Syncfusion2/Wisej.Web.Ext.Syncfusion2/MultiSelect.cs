@@ -21,7 +21,8 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// The MultiSelect component contains a list of predefined values from which a multiple value can be chosen. 
+	/// The functionality of MultiSelect resembles the SELECT form element of HTML.
 	/// </summary>
 	public class MultiSelect : ej2Base
 	{

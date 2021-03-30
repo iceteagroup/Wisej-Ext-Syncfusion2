@@ -21,7 +21,7 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// The Heat map control is used to visualize a two-dimensional data in which the values are represented in gradient or fixed colors.
 	/// </summary>
 	public class HeatMap : ej2Base
 	{

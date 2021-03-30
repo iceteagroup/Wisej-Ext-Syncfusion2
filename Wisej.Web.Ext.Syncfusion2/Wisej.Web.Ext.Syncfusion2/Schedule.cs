@@ -21,7 +21,8 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// The schedule component is an event calendar that facilitates almost all the basic Outlook and 
+	/// Google Calendar features, allowing the user to plan and manage appointments and time efficiently.
 	/// </summary>
 	public class Schedule : ej2Base
 	{

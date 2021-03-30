@@ -21,7 +21,8 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// SplitButton has primary and secondary button. Primary button is used to select default action 
+	/// and secondary button is used to toggle contextual overlays for displaying list of action items.
 	/// </summary>
 	public class SplitButton : ej2Base
 	{

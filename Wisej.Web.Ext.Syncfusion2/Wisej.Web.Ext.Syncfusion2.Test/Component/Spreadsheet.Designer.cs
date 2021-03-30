@@ -28,39 +28,39 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.spreadsheet1 = new Wisej.Web.Ext.Syncfusion2.Spreadsheet();
-			this.groupBox1.SuspendLayout();
-			this.panel.SuspendLayout();
-			this.SuspendLayout();
-			// 
-			// linkDocs
-			// 
-			this.linkDocs.Text = "https://ej2.syncfusion.com/javascript/documentation/spreadsheet/getting-started/";
-			// 
-			// linkAPI
-			// 
-			this.linkAPI.Text = "https://ej2.syncfusion.com/javascript/documentation/api/spreadsheet";
-			// 
-			// panel
-			// 
-			this.panel.Controls.Add(this.spreadsheet1);
-			// 
-			// spreadsheet1
-			// 
-			this.spreadsheet1.Dock = Wisej.Web.DockStyle.Fill;
-			this.spreadsheet1.Location = new System.Drawing.Point(8, 8);
-			this.spreadsheet1.Name = "spreadsheet1";
-			this.spreadsheet1.Size = new System.Drawing.Size(437, 297);
-			this.spreadsheet1.TabIndex = 0;
-			this.spreadsheet1.Text = "spreadsheet1";
-			// 
-			// Spreadsheet
-			// 
-			this.Name = "Spreadsheet";
-			this.groupBox1.ResumeLayout(false);
-			this.panel.ResumeLayout(false);
-			this.ResumeLayout(false);
-			this.PerformLayout();
+            this.spreadsheet1 = new Wisej.Web.Ext.Syncfusion2.Spreadsheet();
+            this.groupBox1.SuspendLayout();
+            this.panel.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // linkDocs
+            // 
+            this.linkDocs.Text = "https://ej2.syncfusion.com/javascript/documentation/spreadsheet/getting-started/";
+            // 
+            // linkAPI
+            // 
+            this.linkAPI.Text = "https://ej2.syncfusion.com/javascript/documentation/api/spreadsheet";
+            // 
+            // panel
+            // 
+            this.panel.Controls.Add(this.spreadsheet1);
+            // 
+            // spreadsheet1
+            // 
+            this.spreadsheet1.Dock = Wisej.Web.DockStyle.Fill;
+            this.spreadsheet1.Location = new System.Drawing.Point(8, 8);
+            this.spreadsheet1.Name = "spreadsheet1";
+            this.spreadsheet1.Size = new System.Drawing.Size(437, 297);
+            this.spreadsheet1.TabIndex = 0;
+            this.spreadsheet1.Text = "spreadsheet1";
+            // 
+            // Spreadsheet
+            // 
+            this.Name = "Spreadsheet";
+            this.groupBox1.ResumeLayout(false);
+            this.panel.ResumeLayout(false);
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
 		}
 

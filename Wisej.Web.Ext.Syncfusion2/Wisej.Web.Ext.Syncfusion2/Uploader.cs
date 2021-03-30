@@ -21,7 +21,7 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// The uploader component allows to upload images, documents, and other files from local to server.
 	/// </summary>
 	public class Uploader : ej2Base
 	{

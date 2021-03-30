@@ -21,7 +21,7 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// A chart used to visualize stock data.
 	/// </summary>
 	public class StockChart : ej2Base
 	{

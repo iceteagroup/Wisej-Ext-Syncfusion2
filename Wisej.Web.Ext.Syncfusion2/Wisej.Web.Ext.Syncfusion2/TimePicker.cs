@@ -21,7 +21,8 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// Time picker is a simple and intuitive interface component that allows 
+	/// selection of a time value from the popup list or setting a desired time value.
 	/// </summary>
 	public class TimePicker : ej2Base
 	{

@@ -21,7 +21,9 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// The ListBox is a graphical user interface component used to display a list of items. 
+	/// Users can select one or more items in the list using a checkbox or by keyboard selection. 
+	/// It supports sorting, grouping, reordering and drag and drop of items.
 	/// </summary>
 	public class ListBox : ej2Base
 	{

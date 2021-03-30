@@ -21,7 +21,8 @@
 namespace Wisej.Web.Ext.Syncfusion2
 {
 	/// <summary>
-	/// TODO: Fill out summary.
+	/// Sidebar is an expandable or collapsible component that typically act as a side 
+	/// container to place the primary or secondary content alongside of the main content.
 	/// </summary>
 	public class Sidebar : ej2Base
 	{
