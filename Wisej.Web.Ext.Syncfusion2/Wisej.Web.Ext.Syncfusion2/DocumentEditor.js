@@ -19,42 +19,57 @@
 //
 ///////////////////////////////////////////////////////////////////////////////
 
+// Returns a data map that can be converted to JSON.
+this.filterEventData = function (args) {
+
+	switch (args.name) {
+		case "":
+			break;
+
+		default:
+			break;
+    }
+}
+
 /**
  * Process the options map before it is used to
  * create or update the widget.
  */
 this.filterOptions = function (options) {
 
+	// fill the widget.
 	options.width = "100%";
 	options.height = "100%";
 
-	if (!options.serviceUrl) {
-		var serviceUrl = this.getServiceUrl();
-		options.serviceUrl = serviceUrl;
-		options.serverActionSettings = {
-			load: "?action=load"
-		}
-	}
+	debugger;
+	options.serviceUrl = this.getServiceUrl() + "?action=service";
+
+	// detect widget creation.
+	var me = this;
+	options.created = function () {
+		me.fireEvent("Initialized");
+	};
 };
 
+/**
+ * Processes opening documents.
+ * @param {any} sfdt the document string.
+ */
 this.openFile = function (sfdt) {
 
+	var me = this;
 	if (!this.widget) {
-		var me = this;
 		this.addListenerOnce("Initialized", function () {
 
 			me.openFile(sfdt);
-		})
+		});
 		return;
 	}
 
 	if (this.widget.documentEditor == null)
-		this.widget.documentEditor = new ej.documenteditor.DocumentEditor();
-
-	this.widget.documentEditor.open(sfdt);
-}
-
-this.initWidget = function () {
-
-	this.fireEvent("Initialized");
+		this.widget.documenteditor = new ej.documenteditor.DocumentEditor();
+    
+	setTimeout(function () {
+		me.widget.documentEditor.open(sfdt);
+	}, 1000);
 }

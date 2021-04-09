@@ -50,8 +50,7 @@
     <Content Include="Data\Maps\WorldMap_Countries.json" />
     <Content Include="Data\Maps\North America.json" />
     <Content Include="Data\Maps\Europe.json" />
-    <Content Include="Data\DocumentEditor\W2W.docx" />
-    <Content Include="Data\DocumentEditor\abcd.docx" />
+    <Content Include="Views\web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -348,6 +347,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Data\DocumentEditor\" />
+    <Folder Include="Libs\" />
     <Folder Include="Themes\" />
   </ItemGroup>
   <ItemGroup>
@@ -356,17 +357,12 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Libs\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="Syncfusion.Compression.Base, Version=14.1450.0.41, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+    <Reference Include="Syncfusion.EJ2.DocumentEditor, Version=19.1450.0.54, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>Libs\Syncfusion.Compression.Base.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.DocIO.Base">
-      <HintPath>Libs\Syncfusion.DocIO.Base.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.EJ2.DocumentEditor">
       <HintPath>Libs\Syncfusion.EJ2.DocumentEditor.dll</HintPath>
     </Reference>
-    <Reference Include="Syncfusion.Licensing">
+    <Reference Include="Syncfusion.Licensing, Version=19.1460.0.54, Culture=neutral, PublicKeyToken=632609b4d040f6b4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>Libs\Syncfusion.Licensing.dll</HintPath>
     </Reference>
     <Reference Include="System" />
@@ -375,6 +371,7 @@
     <Reference Include="System.Numerics" />
     <Reference Include="System.Web" />
     <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
     <Reference Include="Wisej.Ext.MaterialDesign">
       <HintPath>..\..\..\..\2.2\bin\Wisej.Ext.MaterialDesign.dll</HintPath>
     </Reference>

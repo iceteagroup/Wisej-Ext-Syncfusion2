@@ -248,7 +248,8 @@ qx.Class.define("wisej.web.ext.Syncfusion2Widget", {
 					// make sure there is always one field or
 					// the wisej system sends null instead of {}.
 					var eventData = me.filterEventData(args);
-					eventData.type = args.name;
+					if (eventData)
+						eventData.type = args.name;
 
 					me.fireWidgetEvent(
 						args.name,
