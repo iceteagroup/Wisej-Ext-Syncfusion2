@@ -29,6 +29,8 @@
 		private void InitializeComponent()
 		{
             this.spreadsheet1 = new Wisej.Web.Ext.Syncfusion2.Spreadsheet();
+            this.button1 = new Wisej.Web.Button();
+            this.button2 = new Wisej.Web.Button();
             this.groupBox1.SuspendLayout();
             this.panel.SuspendLayout();
             this.SuspendLayout();
@@ -40,6 +42,14 @@
             // linkAPI
             // 
             this.linkAPI.Text = "https://ej2.syncfusion.com/javascript/documentation/api/spreadsheet";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.SetChildIndex(this.buttonUpdate, 0);
+            this.groupBox1.Controls.SetChildIndex(this.button1, 0);
+            this.groupBox1.Controls.SetChildIndex(this.button2, 0);
             // 
             // panel
             // 
@@ -53,10 +63,30 @@
             this.spreadsheet1.Size = new System.Drawing.Size(437, 297);
             this.spreadsheet1.TabIndex = 0;
             this.spreadsheet1.Text = "spreadsheet1";
+            this.spreadsheet1.WebRequest += new Wisej.Web.WebRequestHandler(this.spreadsheet1_WebRequest);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(28, 38);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(195, 27);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Hide Headers";
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(28, 125);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(195, 27);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "Sample Data";
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Spreadsheet
             // 
             this.Name = "Spreadsheet";
+            this.Load += new System.EventHandler(this.Spreadsheet_Load);
             this.groupBox1.ResumeLayout(false);
             this.panel.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -67,5 +97,7 @@
 		#endregion
 
 		private Syncfusion2.Spreadsheet spreadsheet1;
-	}
+        private Button button1;
+        private Button button2;
+    }
 }

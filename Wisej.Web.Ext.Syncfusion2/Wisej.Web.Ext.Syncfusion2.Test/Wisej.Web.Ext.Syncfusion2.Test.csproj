@@ -50,7 +50,14 @@
     <Content Include="Data\Maps\WorldMap_Countries.json" />
     <Content Include="Data\Maps\North America.json" />
     <Content Include="Data\Maps\Europe.json" />
-    <Content Include="Views\web.config" />
+    <Content Include="Libs\Newtonsoft.Json.dll" />
+    <Content Include="Libs\Syncfusion.DocIO.Base.dll" />
+    <Content Include="Libs\Syncfusion.EJ2.DocumentEditor.dll" />
+    <Content Include="Libs\Syncfusion.EJ2.Spreadsheet.dll" />
+    <Content Include="Libs\Syncfusion.Licensing.dll" />
+    <Content Include="Libs\Syncfusion.XlsIO.Base.dll" />
+    <Content Include="Data\Spreadsheet\Sample2.xlsx" />
+    <Content Include="Data\Spreadsheet\Sample.xls" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -348,22 +355,36 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\DocumentEditor\" />
-    <Folder Include="Libs\" />
     <Folder Include="Themes\" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Libs\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.DocIO.Base, Version=19.1460.0.54, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libs\Syncfusion.DocIO.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.EJ2">
+      <HintPath>Libs\Spreadsheet\Syncfusion.EJ2.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.EJ2.DocumentEditor, Version=19.1450.0.54, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Libs\Syncfusion.EJ2.DocumentEditor.dll</HintPath>
     </Reference>
+    <Reference Include="Syncfusion.EJ2.Spreadsheet, Version=19.1500.0.54, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libs\Spreadsheet\Syncfusion.EJ2.Spreadsheet.dll</HintPath>
+    </Reference>
     <Reference Include="Syncfusion.Licensing, Version=19.1460.0.54, Culture=neutral, PublicKeyToken=632609b4d040f6b4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Libs\Syncfusion.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.XlsIO.Base, Version=19.1450.0.54, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libs\Spreadsheet\Syncfusion.XlsIO.Base.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
