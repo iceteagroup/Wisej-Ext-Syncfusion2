@@ -18,7 +18,7 @@ namespace Wisej.Web.Ext.Syncfusion2.Test.Component
 			this.spreadsheet1.Options.allowOpen = true;
 			this.spreadsheet1.Options.openUrl = ((Widget)this.spreadsheet1).GetPostbackURL() + "&action=load";
 
-			var filePath = Application.MapPath("Data/Spreadsheet/Sample.xls");
+			var filePath = "Data/Spreadsheet/Sample.xls";
 			this.spreadsheet1.Instance.openFromJson(new
 			{
 				file = ProcessFile(filePath)
@@ -36,7 +36,7 @@ namespace Wisej.Web.Ext.Syncfusion2.Test.Component
 
 		private void button2_Click(object sender, EventArgs e)
 		{
-			var filePath = Application.MapPath("Data/Spreadsheet/Sample2.xlsx");
+			var filePath = "Data/Spreadsheet/Sample2.xlsx";
 			this.spreadsheet1.Instance.openFromJson(new
 			{
 				file = ProcessFile(filePath)
