@@ -4,7 +4,6 @@ namespace Wisej.Web.Ext.Syncfusion2.Test.Component
 {
 	public partial class ChipList : Wisej.Web.Ext.Syncfusion2.Test.Component.TestBase
 	{
-		private Camera.Camera camera1 = new Camera.Camera();
 		public ChipList()
 		{
 			InitializeComponent();

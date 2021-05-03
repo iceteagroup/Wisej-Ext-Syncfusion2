@@ -368,7 +368,7 @@
       <HintPath>Libs\Syncfusion.DocIO.Base.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.EJ2">
-      <HintPath>Libs\Spreadsheet\Syncfusion.EJ2.dll</HintPath>
+      <HintPath>Libs\Syncfusion.EJ2.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.EJ2.DocumentEditor, Version=19.1450.0.54, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -399,13 +399,6 @@
     <Reference Include="Wisej.Framework, Version=2.0.0.0, Culture=neutral, PublicKeyToken=17bef35e11b84171, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\Development\2.2\bin\Wisej.Framework.dll</HintPath>
-    </Reference>
-    <Reference Include="Wisej.Web.Ext.Barcode, Version=2.0.0.0, Culture=neutral, PublicKeyToken=653fbd0440795259, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\2.2\Wisej.Web.Ext.Barcode\bin\Debug\Wisej.Web.Ext.Barcode.dll</HintPath>
-    </Reference>
-    <Reference Include="Wisej.Web.Ext.Camera">
-      <HintPath>..\..\..\..\2.2\Wisej.Web.Ext.Camera\bin\Debug\Wisej.Web.Ext.Camera.dll</HintPath>
     </Reference>
     <Reference Include="Wisej.Web.Ext.Syncfusion2, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
